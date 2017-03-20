@@ -4,16 +4,22 @@ This is the parse module:
 """
 # built in modules
 import string
+import stopMod
 
 class ParseModule:
     'Parser to handle SGML files'
-    def __init__(self, docName, printOut):
+    def __init__(self, docName, stopList=None):
         self.docName = docName
         self.docFile = open(docName, "r")
-        self.printOut = printOut
         self.docCount = 0
-        self.docMap = dict()
+        self.docMap = []
+        # create stopMod obj if stoplist is supplied, else None
+        if stopList != None:
+            self.stopModule = stopMod.StopModule(stopList)
+        else:
+            self.stopModule = None
 
+    # Return: termlist, list of tuples -> (termStr, docID) both str values
     def readDoc(self):
         # start reading the doc
         self.docFile = open(self.docName, "r")
@@ -46,24 +52,31 @@ class ParseModule:
 
             #strip off the tags and small numbers <= 3 digits
             for word in words:
-                # clean up the word first
-                cleanWords = self.tokenize(word)
                 # normalize the word, and add the returned values
+                cleanWords = self.tokenize(word)
+
+                # use stop mod function to process words, when stopList
+                if self.stopModule != None:
+                    cleanWords = self.stopModule.removeStops(cleanWords)
+
+                # check for null values
                 if cleanWords == None:
                     continue
                 # add to the termList
                 for cleanWord in cleanWords:
-                    termList.append((cleanWord, self.docCount))
+                    termList.append((cleanWord, str(self.docCount)))
             # detect EOF
             try:
                 line = self.docFile.next()
             except StopIteration:
                 break
-        print termList # DEBUG
-        print self.docMap
 
         # close file at the end
         self.docFile.close()
+
+        # Output map and return list of terms
+        self._outputMap()
+        return termList
     # =============================// Main function ends //======
 
     # function that maps ID(docCount) with DOCNO
@@ -71,8 +84,9 @@ class ParseModule:
         # this *line* being passed should contain the docNo
         words = line.split(' ')
         docNo = words[1] # the docNo should always be the 2nd element
-        # pair and map id with DOCNO
-        self.docMap[str(self.docCount)] = docNo
+        # pair and map id with DOCNO, all string values
+        docPair = (str(self.docCount), docNo)
+        self.docMap.append(docPair)
         # increase the doc count
         self.docCount += 1
         #print 'Doc Count: ' + str(self.docCount) # DEBUG
@@ -80,6 +94,7 @@ class ParseModule:
     # function to tokenize words, remove and clean, return word or None
     # Specs: default length of numbers to be removed is *3*
     # Returns: a array of words, or None
+    # Chain of actions: tokenize ==> normalize <-> removeStop
     def tokenize(self, word):
         # strip the word clean
         word = word.strip()
@@ -114,6 +129,7 @@ class ParseModule:
                 cleanWords.remove(cleanWord)
         if len(cleanWords) == 0:
             return None
+
         return cleanWords
 
     # function to normalize the word, return array of word/s
@@ -142,4 +158,11 @@ class ParseModule:
                 continue
         return cleanWords
     # to output a map
-    #def _outputMap(self):
+    def _outputMap(self):
+        mapFile = open("map", "w")
+        # iterate through the map array and output into map file
+        for tuple in self.docMap:
+            docID, docNo = (tuple)
+            mapFile.write(docID + " " + docNo + "\n")
+        # close file after writing
+        mapFile.close()

@@ -13,7 +13,6 @@ import sys
 
 # import different modules we wrote
 import parseMod
-import stopMod
 import indexMod
 
 def main(argv):
@@ -21,27 +20,34 @@ def main(argv):
     stopList = ''
     printOut = False
 
+    # termList: returned from ParseModule
+    termList = []
+
     # entry point: handle flags and options
     for argvLine in argv:
         if argvLine == '-s':
-            # if stop file supplied
+            # if stop file supplied, it has to be the second arg
             stopList = argv[1]
         else:
             if argvLine == '-p':
                 printOut = True
     if len(argv) == 1:
+        # sourcefile is always to last one in argv list :)
         sourceFile = argv.pop()
         flagError = False
+    sourceFile = argv.pop()
     # get help
     if len(argv) < 1 | len(argv) > 4:
         print 'Invalid arguments:'
         print 'usage: [-s <stoplist>] [-p] <sourcefile>'
-    # the sourceFile is always the last one
-    sourceFile = argv.pop()
 
     #=================================================// Done with argv
-    parseModule = parseMod.ParseModule(sourceFile, printOut)
-    parseModule.readDoc()
+    parseModule = parseMod.ParseModule(sourceFile, stopList)
+    termList = parseModule.readDoc()
+    # print to stdout if -p supplied
+    if printOut == True:
+        print termList
+
 
 if __name__ == "__main__":
     main(sys.argv[1:])
