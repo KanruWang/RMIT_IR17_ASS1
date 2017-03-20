@@ -9,7 +9,7 @@ Importing different modules at the start, using built libraries to read command-
 """
 
 # import Python libraries to work with, NO advanced libs, just the ones to make life easier
-import sys, getopt
+import sys
 
 # import different modules we wrote
 import parseMod
@@ -17,21 +17,31 @@ import stopMod
 import indexMod
 
 def main(argv):
-    sourcefile = ''
-    stoplist = ''
-    output = False
-    try:
-        opts, args = getopt.getopt(argv,"hsp")
-    except getopt.GetoptError:
-        print 'usage: index.py [-s <stoplist>] [-p] <sourcefile>'
-        sys.exit(2)
-    # if no options has been provided
-    if len(argv) == 1:
-        sourcefile = argv[0]
-    print argv
+    sourceFile = ''
+    stopList = ''
+    printOut = False
 
-    print 'sourcefile "', sourcefile
-    print 'stoplist "', stoplist
+    # entry point: handle flags and options
+    for argvLine in argv:
+        if argvLine == '-s':
+            # if stop file supplied
+            stopList = argv[1]
+        else:
+            if argvLine == '-p':
+                printOut = True
+    if len(argv) == 1:
+        sourceFile = argv.pop()
+        flagError = False
+    # get help
+    if len(argv) < 1 | len(argv) > 4:
+        print 'Invalid arguments:'
+        print 'usage: [-s <stoplist>] [-p] <sourcefile>'
+    # the sourceFile is always the last one
+    sourceFile = argv.pop()
+
+    #=================================================// Done with argv
+    parseModule = parseMod.ParseModule(sourceFile, printOut)
+    parseModule.readDoc()
 
 if __name__ == "__main__":
     main(sys.argv[1:])
