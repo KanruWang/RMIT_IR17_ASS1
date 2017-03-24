@@ -1,0 +1,1655 @@
+$ Inverted Index: 
+# 0312024320 ^ 1  |  <0, 1>  
+# 081560226x ^ 1  |  <2, 1>  
+# 1 ^ 7  |  <1, 2>  <0, 2>  <3, 1>  <2, 1>  <4, 1>  
+# 100th ^ 1  |  <4, 1>  
+# 111 ^ 1  |  <4, 1>  
+# 1194 ^ 1  |  <2, 1>  
+# 1206 ^ 1  |  <0, 1>  
+# 1258 ^ 1  |  <1, 1>  
+# 1495 ^ 1  |  <0, 1>  
+# 168 ^ 1  |  <2, 1>  
+# 1835 ^ 1  |  <1, 1>  
+# 1848 ^ 1  |  <1, 1>  
+# 1859 ^ 1  |  <1, 1>  
+# 1892 ^ 1  |  <2, 1>  
+# 1895 ^ 1  |  <3, 1>  
+# 1917 ^ 1  |  <2, 1>  
+# 1918 ^ 1  |  <2, 1>  
+# 1920s ^ 1  |  <2, 1>  
+# 1930 ^ 1  |  <2, 1>  
+# 1939 ^ 2  |  <4, 2>  
+# 1960 ^ 1  |  <0, 1>  
+# 1967 ^ 1  |  <0, 1>  
+# 1986 ^ 1  |  <0, 1>  
+# 19861987 ^ 1  |  <0, 1>  
+# 1987 ^ 1  |  <0, 1>  
+# 1989 ^ 5  |  <1, 1>  <0, 1>  <3, 1>  <2, 1>  <4, 1>  
+# 1995 ^ 1  |  <2, 1>  
+# 19thcentury ^ 2  |  <1, 1>  <3, 1>  
+# 2 ^ 2  |  <3, 1>  <2, 1>  
+# 20th ^ 1  |  <2, 1>  
+# 215 ^ 1  |  <3, 1>  
+# 26 ^ 1  |  <0, 1>  
+# 30 ^ 1  |  <1, 1>  
+# 316 ^ 1  |  <0, 1>  
+# 35 ^ 1  |  <0, 1>  
+# 4 ^ 1  |  <4, 1>  
+# 548 ^ 1  |  <1, 1>  
+# 691 ^ 1  |  <3, 1>  
+# ability ^ 1  |  <3, 1>  
+# abolishing ^ 1  |  <1, 1>  
+# abolition ^ 1  |  <1, 1>  
+# abortions ^ 1  |  <0, 1>  
+# absolutely ^ 2  |  <0, 2>  
+# abundant ^ 1  |  <1, 1>  
+# abused ^ 1  |  <2, 1>  
+# abyss ^ 1  |  <3, 1>  
+# academic ^ 1  |  <0, 1>  
+# access ^ 1  |  <0, 1>  
+# accident ^ 3  |  <0, 3>  
+# accidents ^ 2  |  <0, 2>  
+# accommodate ^ 1  |  <1, 1>  
+# according ^ 1  |  <1, 1>  
+# accurate ^ 1  |  <1, 1>  
+# accurately ^ 1  |  <0, 1>  
+# acknowledged ^ 1  |  <2, 1>  
+# action ^ 1  |  <2, 1>  
+# active ^ 2  |  <1, 1>  <2, 1>  
+# actual ^ 1  |  <0, 1>  
+# actually ^ 1  |  <0, 1>  
+# address ^ 1  |  <3, 1>  
+# addressed ^ 1  |  <3, 1>  
+# addresses ^ 1  |  <0, 1>  
+# adhered ^ 1  |  <2, 1>  
+# admirably ^ 1  |  <0, 1>  
+# admired ^ 1  |  <1, 1>  
+# admirer ^ 1  |  <1, 1>  
+# admit ^ 1  |  <3, 1>  
+# adolescence ^ 1  |  <2, 1>  
+# advocates ^ 1  |  <0, 1>  
+# aerial ^ 1  |  <0, 1>  
+# aerospace ^ 1  |  <0, 1>  
+# affairs ^ 2  |  <1, 2>  
+# aftermath ^ 1  |  <0, 1>  
+# age ^ 1  |  <3, 1>  
+# ages ^ 1  |  <1, 1>  
+# agitation ^ 1  |  <2, 1>  
+# agnostic ^ 1  |  <1, 1>  
+# ago ^ 2  |  <2, 1>  <4, 1>  
+# aided ^ 1  |  <0, 1>  
+# alacaluf ^ 1  |  <3, 1>  
+# alacalufs ^ 8  |  <3, 8>  
+# alarmed ^ 1  |  <0, 1>  
+# alas ^ 1  |  <1, 1>  
+# alberta ^ 1  |  <0, 1>  
+# alegria ^ 1  |  <2, 1>  
+# algeria ^ 2  |  <1, 2>  
+# alien ^ 1  |  <3, 1>  
+# alienated ^ 1  |  <2, 1>  
+# alliance ^ 1  |  <2, 1>  
+# altered ^ 1  |  <2, 1>  
+# america ^ 8  |  <1, 6>  <3, 1>  <2, 1>  
+# american ^ 8  |  <1, 2>  <3, 1>  <2, 5>  
+# americans ^ 2  |  <1, 1>  <3, 1>  
+# americanstyle ^ 1  |  <1, 1>  
+# amid ^ 1  |  <1, 1>  
+# amp ^ 1  |  <1, 1>  
+# ample ^ 2  |  <1, 1>  <2, 1>  
+# analysis ^ 1  |  <0, 1>  
+# analyzed ^ 1  |  <1, 1>  
+# ancestry ^ 1  |  <2, 1>  
+# andes ^ 1  |  <2, 1>  
+# andre ^ 3  |  <1, 3>  
+# angeles ^ 1  |  <4, 1>  
+# angry ^ 1  |  <2, 1>  
+# anguish ^ 1  |  <2, 1>  
+# animals ^ 3  |  <1, 1>  <3, 1>  <2, 1>  
+# annette ^ 1  |  <1, 1>  
+# anniversary ^ 1  |  <0, 1>  
+# answers ^ 1  |  <1, 1>  
+# anteparadise ^ 1  |  <3, 1>  
+# anticentralism ^ 1  |  <1, 1>  
+# antipoetry ^ 1  |  <2, 1>  
+# antisoviet ^ 1  |  <0, 1>  
+# appalling ^ 1  |  <2, 1>  
+# appearance ^ 1  |  <2, 1>  
+# appeared ^ 1  |  <2, 1>  
+# apra ^ 1  |  <2, 1>  
+# april ^ 1  |  <0, 1>  
+# arbitrary ^ 1  |  <0, 1>  
+# archipelago ^ 1  |  <3, 1>  
+# area ^ 1  |  <3, 1>  
+# arena ^ 1  |  <1, 1>  
+# aristocracy ^ 1  |  <1, 1>  
+# aristocrat ^ 2  |  <1, 2>  
+# arranged ^ 1  |  <0, 1>  
+# arrondissement ^ 1  |  <1, 1>  
+# arthur ^ 1  |  <1, 1>  
+# artists ^ 1  |  <0, 1>  
+# aspects ^ 1  |  <0, 1>  
+# asserted ^ 1  |  <0, 1>  
+# associate ^ 1  |  <0, 1>  
+# assurances ^ 1  |  <0, 1>  
+# attempt ^ 1  |  <3, 1>  
+# attempted ^ 2  |  <0, 1>  <3, 1>  
+# attempts ^ 1  |  <3, 1>  
+# attention ^ 2  |  <0, 1>  <2, 1>  
+# audience ^ 2  |  <0, 1>  <2, 1>  
+# australian ^ 1  |  <3, 1>  
+# author ^ 11  |  <1, 2>  <0, 7>  <2, 2>  
+# authorities ^ 1  |  <2, 1>  
+# authority ^ 1  |  <2, 1>  
+# autonomy ^ 1  |  <1, 1>  
+# aware ^ 1  |  <3, 1>  
+# babies ^ 1  |  <0, 1>  
+# back ^ 2  |  <1, 1>  <4, 1>  
+# background ^ 1  |  <2, 1>  
+# backs ^ 1  |  <2, 1>  
+# badly ^ 1  |  <2, 1>  
+# baffling ^ 1  |  <1, 1>  
+# barrot ^ 1  |  <1, 1>  
+# bartering ^ 1  |  <3, 1>  
+# base ^ 1  |  <1, 1>  
+# based ^ 2  |  <1, 2>  
+# basil ^ 1  |  <1, 1>  
+# beach ^ 1  |  <3, 1>  
+# beasts ^ 1  |  <3, 1>  
+# beaumont ^ 3  |  <1, 3>  
+# beautiful ^ 1  |  <3, 1>  
+# began ^ 2  |  <2, 2>  
+# begging ^ 1  |  <3, 1>  
+# begun ^ 1  |  <3, 1>  
+# being ^ 1  |  <2, 1>  
+# belated ^ 1  |  <2, 1>  
+# believe ^ 1  |  <1, 1>  
+# believed ^ 1  |  <1, 1>  
+# belonged ^ 1  |  <3, 1>  
+# best ^ 1  |  <0, 1>  
+# better ^ 1  |  <2, 1>  
+# bias ^ 1  |  <1, 1>  
+# biased ^ 1  |  <1, 1>  
+# biography ^ 4  |  <1, 4>  
+# birds ^ 1  |  <3, 1>  
+# black ^ 4  |  <3, 1>  <4, 3>  
+# bloody ^ 1  |  <1, 1>  
+# blowbyblow ^ 1  |  <0, 1>  
+# blums ^ 1  |  <1, 1>  
+# bob ^ 1  |  <4, 1>  
+# body ^ 2  |  <2, 2>  
+# book ^ 26  |  <1, 5>  <0, 11>  <3, 3>  <2, 7>  
+# books ^ 1  |  <2, 1>  
+# boom ^ 1  |  <2, 1>  
+# boredom ^ 1  |  <1, 1>  
+# born ^ 3  |  <0, 1>  <2, 2>  
+# bounty ^ 1  |  <3, 1>  
+# bourgeois ^ 2  |  <2, 2>  
+# boys ^ 1  |  <2, 1>  
+# branded ^ 1  |  <0, 1>  
+# braved ^ 1  |  <3, 1>  
+# bribery ^ 1  |  <2, 1>  
+# brief ^ 1  |  <2, 1>  
+# briefly ^ 1  |  <1, 1>  
+# brilliance ^ 1  |  <1, 1>  
+# bringing ^ 1  |  <2, 1>  
+# british ^ 1  |  <1, 1>  
+# britisheducated ^ 1  |  <0, 1>  
+# broke ^ 1  |  <0, 1>  
+# brought ^ 2  |  <1, 1>  <3, 1>  
+# browse ^ 1  |  <0, 1>  
+# bruce ^ 1  |  <3, 1>  
+# brutality ^ 1  |  <2, 1>  
+# brutalization ^ 1  |  <2, 1>  
+# brutish ^ 1  |  <3, 1>  
+# bumper ^ 1  |  <1, 1>  
+# bureaucrat ^ 1  |  <2, 1>  
+# bushmen ^ 1  |  <3, 1>  
+# byron ^ 1  |  <3, 1>  
+# cabinet ^ 2  |  <1, 2>  
+# california ^ 2  |  <1, 1>  <3, 1>  
+# called ^ 1  |  <3, 1>  
+# calm ^ 1  |  <3, 1>  
+# calming ^ 1  |  <0, 1>  
+# caltech ^ 1  |  <1, 1>  
+# came ^ 1  |  <1, 1>  
+# canadian ^ 1  |  <0, 1>  
+# cancer ^ 2  |  <0, 2>  
+# candor ^ 1  |  <0, 1>  
+# cannes ^ 1  |  <1, 1>  
+# cannons ^ 1  |  <3, 1>  
+# canoe ^ 1  |  <3, 1>  
+# capital ^ 1  |  <2, 1>  
+# capitalists ^ 1  |  <2, 1>  
+# capt ^ 1  |  <1, 1>  
+# captivity ^ 1  |  <3, 1>  
+# captors ^ 1  |  <2, 1>  
+# career ^ 1  |  <1, 1>  
+# carlist ^ 1  |  <1, 1>  
+# carlos ^ 1  |  <2, 1>  
+# carried ^ 1  |  <2, 1>  
+# cartesian ^ 1  |  <1, 1>  
+# castaways ^ 1  |  <3, 1>  
+# castle ^ 1  |  <1, 1>  
+# casualties ^ 1  |  <0, 1>  
+# casualty ^ 1  |  <0, 1>  
+# catastrophe ^ 2  |  <0, 2>  
+# catastrophes ^ 2  |  <0, 2>  
+# causes ^ 1  |  <1, 1>  
+# cavendish ^ 1  |  <3, 1>  
+# celebrate ^ 1  |  <2, 1>  
+# center ^ 1  |  <1, 1>  
+# centered ^ 1  |  <2, 1>  
+# central ^ 1  |  <1, 1>  
+# centralism ^ 1  |  <1, 1>  
+# centralization ^ 3  |  <1, 3>  
+# century ^ 3  |  <1, 1>  <2, 2>  
+# certainly ^ 1  |  <2, 1>  
+# certainty ^ 1  |  <2, 1>  
+# cesar ^ 2  |  <2, 2>  
+# chamber ^ 3  |  <1, 3>  
+# champions ^ 1  |  <1, 1>  
+# change ^ 1  |  <1, 1>  
+# changes ^ 1  |  <1, 1>  
+# chapter ^ 2  |  <1, 1>  <3, 1>  
+# chapters ^ 1  |  <3, 1>  
+# character ^ 1  |  <3, 1>  
+# characteristic ^ 1  |  <3, 1>  
+# characterize ^ 1  |  <1, 1>  
+# characterizes ^ 1  |  <1, 1>  
+# characters ^ 2  |  <0, 1>  <2, 1>  
+# chateaubriands ^ 1  |  <1, 1>  
+# chatwin ^ 1  |  <3, 1>  
+# cheated ^ 1  |  <2, 1>  
+# chernobyl ^ 9  |  <0, 9>  
+# chernobylstyle ^ 1  |  <0, 1>  
+# chicama ^ 1  |  <2, 1>  
+# child ^ 1  |  <4, 1>  
+# chilean ^ 1  |  <3, 1>  
+# chilotan ^ 1  |  <3, 1>  
+# cholera ^ 1  |  <2, 1>  
+# cholo ^ 1  |  <2, 1>  
+# chronological ^ 1  |  <1, 1>  
+# chuco ^ 1  |  <2, 1>  
+# church ^ 1  |  <1, 1>  
+# circle ^ 1  |  <0, 1>  
+# circles ^ 1  |  <0, 1>  
+# circumstance ^ 1  |  <1, 1>  
+# circumstances ^ 1  |  <0, 1>  
+# ciro ^ 1  |  <2, 1>  
+# city ^ 2  |  <3, 2>  
+# civil ^ 1  |  <1, 1>  
+# civilized ^ 1  |  <3, 1>  
+# claimed ^ 1  |  <1, 1>  
+# clan ^ 2  |  <3, 2>  
+# clarity ^ 1  |  <1, 1>  
+# class ^ 3  |  <2, 3>  
+# classes ^ 1  |  <2, 1>  
+# cleanup ^ 2  |  <0, 2>  
+# clear ^ 2  |  <1, 2>  
+# closer ^ 1  |  <0, 1>  
+# closing ^ 1  |  <0, 1>  
+# cloth ^ 1  |  <0, 1>  
+# coerced ^ 1  |  <2, 1>  
+# coherent ^ 1  |  <0, 1>  
+# coin ^ 1  |  <3, 1>  
+# colca ^ 3  |  <2, 3>  
+# colleague ^ 1  |  <1, 1>  
+# colleagues ^ 1  |  <2, 1>  
+# collective ^ 1  |  <3, 1>  
+# collectively ^ 1  |  <3, 1>  
+# college ^ 1  |  <2, 1>  
+# colonial ^ 2  |  <1, 1>  <2, 1>  
+# colonized ^ 1  |  <3, 1>  
+# color ^ 3  |  <1, 1>  <2, 1>  <4, 1>  
+# colored ^ 1  |  <1, 1>  
+# column ^ 1  |  <4, 1>  
+# come ^ 1  |  <0, 1>  
+# commanded ^ 1  |  <3, 1>  
+# commitment ^ 1  |  <2, 1>  
+# committing ^ 1  |  <0, 1>  
+# commonly ^ 1  |  <0, 1>  
+# communities ^ 1  |  <3, 1>  
+# companies ^ 1  |  <2, 1>  
+# companion ^ 1  |  <1, 1>  
+# company ^ 1  |  <2, 1>  
+# companys ^ 1  |  <2, 1>  
+# comparatively ^ 1  |  <1, 1>  
+# compared ^ 1  |  <3, 1>  
+# compassion ^ 1  |  <2, 1>  
+# compel ^ 1  |  <0, 1>  
+# completion ^ 1  |  <0, 1>  
+# complexity ^ 1  |  <2, 1>  
+# complicated ^ 1  |  <0, 1>  
+# complicity ^ 2  |  <3, 1>  <2, 1>  
+# comprehensive ^ 1  |  <0, 1>  
+# concatenation ^ 1  |  <1, 1>  
+# concludes ^ 1  |  <0, 1>  
+# concrete ^ 1  |  <0, 1>  
+# connotation ^ 1  |  <0, 1>  
+# conquered ^ 1  |  <1, 1>  
+# consciousness ^ 1  |  <2, 1>  
+# conscripted ^ 1  |  <2, 1>  
+# conscripts ^ 1  |  <2, 1>  
+# consequences ^ 1  |  <0, 1>  
+# conservative ^ 1  |  <1, 1>  
+# constant ^ 1  |  <1, 1>  
+# constitutes ^ 2  |  <1, 1>  <2, 1>  
+# construction ^ 1  |  <0, 1>  
+# contacts ^ 1  |  <3, 1>  
+# contamination ^ 1  |  <0, 1>  
+# contemporary ^ 1  |  <1, 1>  
+# contempt ^ 1  |  <3, 1>  
+# continue ^ 1  |  <0, 1>  
+# continuing ^ 1  |  <0, 1>  
+# continuous ^ 1  |  <0, 1>  
+# contractors ^ 1  |  <2, 1>  
+# convenient ^ 1  |  <0, 1>  
+# conviction ^ 1  |  <2, 1>  
+# convincingly ^ 1  |  <3, 1>  
+# corporation ^ 1  |  <2, 1>  
+# corruption ^ 1  |  <2, 1>  
+# cosmic ^ 1  |  <2, 1>  
+# cotranslators ^ 1  |  <1, 1>  
+# count ^ 1  |  <0, 1>  
+# country ^ 2  |  <1, 2>  
+# countrys ^ 1  |  <0, 1>  
+# countrywide ^ 1  |  <0, 1>  
+# coup ^ 1  |  <1, 1>  
+# couple ^ 1  |  <3, 1>  
+# cover ^ 3  |  <4, 3>  
+# covered ^ 1  |  <4, 1>  
+# coverups ^ 1  |  <0, 1>  
+# cow ^ 1  |  <2, 1>  
+# cracking ^ 1  |  <1, 1>  
+# created ^ 2  |  <0, 1>  <2, 1>  
+# critic ^ 1  |  <2, 1>  
+# cross ^ 1  |  <0, 1>  
+# crossed ^ 1  |  <2, 1>  
+# crossing ^ 1  |  <3, 1>  
+# crowd ^ 3  |  <2, 3>  
+# crucial ^ 1  |  <2, 1>  
+# cruel ^ 1  |  <3, 1>  
+# crusading ^ 1  |  <0, 1>  
+# csu ^ 1  |  <3, 1>  
+# culpability ^ 1  |  <0, 1>  
+# culprit ^ 1  |  <0, 1>  
+# cultural ^ 1  |  <3, 1>  
+# cultures ^ 1  |  <3, 1>  
+# cumbersomely ^ 1  |  <1, 1>  
+# cumexemplary ^ 1  |  <3, 1>  
+# curiously ^ 1  |  <1, 1>  
+# curlyheaded ^ 1  |  <4, 1>  
+# custody ^ 1  |  <2, 1>  
+# customs ^ 2  |  <1, 1>  <3, 1>  
+# damaged ^ 1  |  <0, 1>  
+# damning ^ 1  |  <0, 1>  
+# dance ^ 1  |  <3, 1>  
+# darwin ^ 1  |  <3, 1>  
+# data ^ 1  |  <0, 1>  
+# david ^ 3  |  <1, 1>  <0, 2>  
+# davis ^ 1  |  <1, 1>  
+# day ^ 1  |  <1, 1>  
+# days ^ 1  |  <0, 1>  
+# de ^ 3  |  <1, 1>  <2, 2>  
+# dead ^ 1  |  <1, 1>  
+# deal ^ 1  |  <1, 1>  
+# deals ^ 1  |  <2, 1>  
+# dealt ^ 1  |  <0, 1>  
+# death ^ 6  |  <1, 1>  <0, 3>  <3, 1>  <2, 1>  
+# deaths ^ 2  |  <0, 2>  
+# debate ^ 1  |  <0, 1>  
+# decade ^ 1  |  <2, 1>  
+# declared ^ 1  |  <0, 1>  
+# deemed ^ 1  |  <0, 1>  
+# defended ^ 1  |  <1, 1>  
+# defiant ^ 1  |  <2, 1>  
+# deficiencies ^ 1  |  <0, 1>  
+# del ^ 3  |  <3, 3>  
+# delayed ^ 1  |  <0, 1>  
+# deliberative ^ 1  |  <0, 1>  
+# democracy ^ 3  |  <1, 3>  
+# democratic ^ 1  |  <1, 1>  
+# demonstrated ^ 1  |  <1, 1>  
+# denied ^ 1  |  <0, 1>  
+# denounced ^ 1  |  <2, 1>  
+# depend ^ 1  |  <0, 1>  
+# depends ^ 1  |  <3, 1>  
+# deplored ^ 1  |  <1, 1>  
+# deputy ^ 1  |  <1, 1>  
+# describe ^ 1  |  <0, 1>  
+# description ^ 1  |  <0, 1>  
+# deserve ^ 2  |  <2, 2>  
+# design ^ 1  |  <0, 1>  
+# designed ^ 1  |  <1, 1>  
+# desirable ^ 1  |  <1, 1>  
+# desk ^ 5  |  <1, 1>  <0, 1>  <3, 1>  <2, 1>  <4, 1>  
+# despair ^ 3  |  <0, 2>  <3, 1>  
+# despaired ^ 1  |  <2, 1>  
+# despite ^ 2  |  <0, 1>  <3, 1>  
+# destitute ^ 1  |  <2, 1>  
+# destroyed ^ 1  |  <1, 1>  
+# detailed ^ 1  |  <0, 1>  
+# details ^ 1  |  <4, 1>  
+# detat ^ 1  |  <1, 1>  
+# determine ^ 1  |  <0, 1>  
+# determined ^ 1  |  <2, 1>  
+# deviates ^ 1  |  <1, 1>  
+# devoted ^ 1  |  <2, 1>  
+# dialogue ^ 1  |  <3, 1>  
+# died ^ 1  |  <3, 1>  
+# dies ^ 1  |  <2, 1>  
+# diets ^ 1  |  <0, 1>  
+# difficulties ^ 1  |  <2, 1>  
+# dignitaries ^ 1  |  <2, 1>  
+# dimension ^ 1  |  <2, 1>  
+# direction ^ 1  |  <1, 1>  
+# disaster ^ 5  |  <0, 5>  
+# disasters ^ 1  |  <0, 1>  
+# discipline ^ 1  |  <0, 1>  
+# disclosure ^ 1  |  <0, 1>  
+# disconcerted ^ 1  |  <1, 1>  
+# discourse ^ 1  |  <2, 1>  
+# discrimination ^ 1  |  <2, 1>  
+# discusses ^ 1  |  <0, 1>  
+# discussion ^ 1  |  <0, 1>  
+# disdain ^ 1  |  <3, 1>  
+# disease ^ 1  |  <0, 1>  
+# diseases ^ 1  |  <3, 1>  
+# disgusting ^ 1  |  <3, 1>  
+# dismissed ^ 1  |  <0, 1>  
+# disservice ^ 1  |  <2, 1>  
+# distinction ^ 1  |  <1, 1>  
+# diversity ^ 1  |  <1, 1>  
+# divert ^ 1  |  <0, 1>  
+# documented ^ 1  |  <2, 1>  
+# domestic ^ 1  |  <2, 1>  
+# dominican ^ 1  |  <2, 1>  
+# downfall ^ 1  |  <1, 1>  
+# downplayed ^ 1  |  <0, 1>  
+# drake ^ 1  |  <3, 1>  
+# drama ^ 1  |  <0, 1>  
+# dramatic ^ 1  |  <0, 1>  
+# draw ^ 1  |  <3, 1>  
+# dream ^ 1  |  <1, 1>  
+# drift ^ 1  |  <1, 1>  
+# duckspeaks ^ 1  |  <2, 1>  
+# due ^ 1  |  <0, 1>  
+# earl ^ 1  |  <4, 1>  
+# earlier ^ 2  |  <0, 1>  <2, 1>  
+# earliest ^ 1  |  <2, 1>  
+# earthbound ^ 1  |  <3, 1>  
+# east ^ 1  |  <1, 1>  
+# economic ^ 3  |  <0, 1>  <2, 2>  
+# economist ^ 1  |  <0, 1>  
+# economy ^ 1  |  <0, 1>  
+# edith ^ 1  |  <2, 1>  
+# editing ^ 1  |  <2, 1>  
+# edition ^ 6  |  <1, 1>  <0, 2>  <3, 1>  <2, 1>  <4, 1>  
+# editors ^ 1  |  <1, 1>  
+# education ^ 2  |  <1, 2>  
+# effects ^ 2  |  <0, 2>  
+# egos ^ 1  |  <1, 1>  
+# eking ^ 1  |  <2, 1>  
+# el ^ 1  |  <3, 1>  
+# elected ^ 1  |  <1, 1>  
+# electrical ^ 1  |  <0, 1>  
+# elevation ^ 1  |  <0, 1>  
+# elicit ^ 1  |  <1, 1>  
+# eliminating ^ 1  |  <1, 1>  
+# elite ^ 1  |  <1, 1>  
+# eloquent ^ 1  |  <0, 1>  
+# embrace ^ 1  |  <3, 1>  
+# emperor ^ 1  |  <1, 1>  
+# empire ^ 1  |  <1, 1>  
+# en ^ 1  |  <2, 1>  
+# encountered ^ 2  |  <0, 1>  <3, 1>  
+# encounters ^ 1  |  <0, 1>  
+# end ^ 6  |  <1, 1>  <0, 1>  <3, 2>  <2, 2>  
+# ending ^ 2  |  <0, 2>  
+# endless ^ 1  |  <3, 1>  
+# endlessly ^ 1  |  <3, 1>  
+# energies ^ 1  |  <2, 1>  
+# engagement ^ 2  |  <2, 1>  <4, 1>  
+# engineer ^ 1  |  <0, 1>  
+# english ^ 2  |  <3, 1>  <2, 1>  
+# englishlanguage ^ 1  |  <2, 1>  
+# enhance ^ 1  |  <0, 1>  
+# enslaved ^ 1  |  <3, 1>  
+# entered ^ 1  |  <1, 1>  
+# enterprises ^ 1  |  <1, 1>  
+# entombment ^ 3  |  <0, 3>  
+# entrepreneurs ^ 1  |  <2, 1>  
+# entry ^ 1  |  <2, 1>  
+# environmental ^ 1  |  <0, 1>  
+# era ^ 2  |  <1, 1>  <0, 1>  
+# errors ^ 2  |  <0, 1>  <2, 1>  
+# especially ^ 1  |  <0, 1>  
+# establish ^ 1  |  <2, 1>  
+# esteemed ^ 1  |  <1, 1>  
+# estimates ^ 2  |  <0, 2>  
+# estimators ^ 1  |  <0, 1>  
+# etching ^ 1  |  <3, 1>  
+# eternally ^ 1  |  <3, 1>  
+# ethical ^ 1  |  <3, 1>  
+# europe ^ 1  |  <0, 1>  
+# european ^ 6  |  <1, 3>  <3, 2>  <2, 1>  
+# europeans ^ 2  |  <3, 2>  
+# event ^ 5  |  <1, 1>  <0, 4>  
+# events ^ 1  |  <0, 1>  
+# eventually ^ 2  |  <0, 1>  <2, 1>  
+# evil ^ 1  |  <2, 1>  
+# examples ^ 1  |  <0, 1>  
+# excellent ^ 2  |  <1, 1>  <3, 1>  
+# excess ^ 1  |  <0, 1>  
+# exclaiming ^ 1  |  <1, 1>  
+# executive ^ 1  |  <0, 1>  
+# exercise ^ 1  |  <2, 1>  
+# existed ^ 1  |  <1, 1>  
+# experience ^ 1  |  <2, 1>  
+# experiment ^ 1  |  <1, 1>  
+# explained ^ 1  |  <1, 1>  
+# explanations ^ 1  |  <0, 1>  
+# explicit ^ 1  |  <0, 1>  
+# exploitation ^ 1  |  <2, 1>  
+# explores ^ 1  |  <3, 1>  
+# exploring ^ 1  |  <0, 1>  
+# exposed ^ 1  |  <0, 1>  
+# express ^ 1  |  <2, 1>  
+# expulsion ^ 1  |  <2, 1>  
+# exterminated ^ 1  |  <3, 1>  
+# extinct ^ 1  |  <3, 1>  
+# extracted ^ 1  |  <2, 1>  
+# eyes ^ 1  |  <3, 1>  
+# facets ^ 1  |  <0, 1>  
+# facile ^ 1  |  <2, 1>  
+# fact ^ 4  |  <1, 2>  <2, 2>  
+# facts ^ 2  |  <1, 1>  <2, 1>  
+# failings ^ 1  |  <0, 1>  
+# fails ^ 1  |  <1, 1>  
+# fair ^ 1  |  <1, 1>  
+# fairly ^ 1  |  <0, 1>  
+# falaschi ^ 2  |  <4, 2>  
+# fallout ^ 1  |  <0, 1>  
+# false ^ 1  |  <0, 1>  
+# familiar ^ 1  |  <0, 1>  
+# family ^ 4  |  <1, 1>  <3, 1>  <2, 2>  
+# famine ^ 1  |  <3, 1>  
+# farmer ^ 1  |  <1, 1>  
+# fate ^ 4  |  <3, 4>  
+# father ^ 2  |  <3, 1>  <2, 1>  
+# fault ^ 2  |  <1, 1>  <3, 1>  
+# favored ^ 1  |  <1, 1>  
+# fears ^ 1  |  <3, 1>  
+# fellow ^ 1  |  <3, 1>  
+# fiction ^ 2  |  <3, 2>  
+# fictional ^ 1  |  <2, 1>  
+# fidgety ^ 1  |  <3, 1>  
+# fighting ^ 1  |  <1, 1>  
+# figure ^ 2  |  <1, 1>  <2, 1>  
+# figurehead ^ 1  |  <1, 1>  
+# figures ^ 1  |  <3, 1>  
+# final ^ 1  |  <0, 1>  
+# finally ^ 1  |  <0, 1>  
+# financially ^ 1  |  <2, 1>  
+# find ^ 4  |  <1, 1>  <0, 1>  <2, 2>  
+# fine ^ 4  |  <1, 1>  <3, 2>  <2, 1>  
+# finish ^ 1  |  <1, 1>  
+# fire ^ 2  |  <3, 1>  <2, 1>  
+# fired ^ 1  |  <1, 1>  
+# firsthand ^ 1  |  <2, 1>  
+# firstworld ^ 1  |  <3, 1>  
+# fits ^ 1  |  <0, 1>  
+# flashes ^ 1  |  <2, 1>  
+# fleeing ^ 1  |  <3, 1>  
+# followed ^ 2  |  <1, 1>  <2, 1>  
+# fontanini ^ 1  |  <4, 1>  
+# footnoted ^ 1  |  <1, 1>  
+# force ^ 1  |  <1, 1>  
+# forced ^ 1  |  <2, 1>  
+# forcibly ^ 1  |  <2, 1>  
+# foreign ^ 4  |  <1, 2>  <2, 2>  
+# foremost ^ 1  |  <0, 1>  
+# foreword ^ 2  |  <2, 2>  
+# forged ^ 1  |  <2, 1>  
+# form ^ 1  |  <1, 1>  
+# forsaken ^ 1  |  <3, 1>  
+# forward ^ 1  |  <2, 1>  
+# fostering ^ 1  |  <3, 1>  
+# fought ^ 1  |  <1, 1>  
+# founder ^ 1  |  <2, 1>  
+# france ^ 4  |  <1, 3>  <2, 1>  
+# freedom ^ 1  |  <1, 1>  
+# french ^ 3  |  <1, 2>  <3, 1>  
+# frenchman ^ 1  |  <1, 1>  
+# frenchmen ^ 1  |  <1, 1>  
+# frequent ^ 2  |  <0, 1>  <2, 1>  
+# friend ^ 1  |  <1, 1>  
+# fuego ^ 2  |  <3, 2>  
+# fuegowho ^ 1  |  <3, 1>  
+# fulfill ^ 1  |  <2, 1>  
+# fulfilled ^ 1  |  <0, 1>  
+# full ^ 1  |  <0, 1>  
+# fullscale ^ 1  |  <1, 1>  
+# function ^ 2  |  <1, 1>  <3, 1>  
+# furiously ^ 1  |  <0, 1>  
+# future ^ 4  |  <1, 2>  <0, 2>  
+# gabriel ^ 1  |  <2, 1>  
+# garcia ^ 1  |  <2, 1>  
+# gathers ^ 1  |  <2, 1>  
+# general ^ 1  |  <0, 1>  
+# generally ^ 1  |  <0, 1>  
+# generations ^ 1  |  <3, 1>  
+# genocidal ^ 1  |  <3, 1>  
+# genre ^ 1  |  <2, 1>  
+# gentleman ^ 2  |  <1, 1>  <3, 1>  
+# giroux ^ 1  |  <1, 1>  
+# give ^ 2  |  <1, 1>  <3, 1>  
+# giving ^ 1  |  <1, 1>  
+# glasnost ^ 4  |  <0, 4>  
+# glimpse ^ 1  |  <3, 1>  
+# goal ^ 1  |  <0, 1>  
+# gobineau ^ 1  |  <1, 1>  
+# gorbachev ^ 2  |  <0, 2>  
+# grace ^ 1  |  <1, 1>  
+# gradual ^ 1  |  <1, 1>  
+# grand ^ 3  |  <4, 3>  
+# granddaughter ^ 1  |  <4, 1>  
+# grandson ^ 1  |  <1, 1>  
+# grappled ^ 1  |  <1, 1>  
+# gratitude ^ 1  |  <2, 1>  
+# graveyard ^ 1  |  <3, 1>  
+# great ^ 3  |  <1, 2>  <2, 1>  
+# greatest ^ 2  |  <0, 1>  <2, 1>  
+# greatgrandfathers ^ 1  |  <1, 1>  
+# greed ^ 1  |  <2, 1>  
+# grim ^ 1  |  <2, 1>  
+# grossman ^ 2  |  <2, 2>  
+# ground ^ 1  |  <0, 1>  
+# group ^ 1  |  <4, 1>  
+# growing ^ 1  |  <2, 1>  
+# gubarev ^ 1  |  <0, 1>  
+# guns ^ 1  |  <3, 1>  
+# gusinde ^ 1  |  <3, 1>  
+# hablador ^ 1  |  <3, 1>  
+# halls ^ 1  |  <1, 1>  
+# hand ^ 2  |  <1, 1>  <0, 1>  
+# happy ^ 1  |  <3, 1>  
+# hardy ^ 1  |  <3, 1>  
+# hatred ^ 1  |  <1, 1>  
+# haya ^ 1  |  <2, 1>  
+# health ^ 1  |  <1, 1>  
+# healthy ^ 1  |  <1, 1>  
+# heart ^ 1  |  <2, 1>  
+# held ^ 1  |  <0, 1>  
+# hell ^ 1  |  <3, 1>  
+# help ^ 1  |  <2, 1>  
+# helpful ^ 1  |  <0, 1>  
+# helpless ^ 1  |  <2, 1>  
+# hemenwayfarrar ^ 1  |  <1, 1>  
+# heraldos ^ 1  |  <2, 1>  
+# herded ^ 1  |  <3, 1>  
+# hero ^ 1  |  <2, 1>  
+# hierarchy ^ 1  |  <0, 1>  
+# high ^ 1  |  <2, 1>  
+# highest ^ 1  |  <0, 1>  
+# him ^ 11  |  <1, 7>  <3, 3>  <2, 1>  
+# historian ^ 1  |  <0, 1>  
+# historical ^ 5  |  <1, 1>  <3, 3>  <2, 1>  
+# history ^ 5  |  <1, 1>  <3, 3>  <4, 1>  
+# home ^ 6  |  <1, 1>  <0, 1>  <3, 2>  <2, 1>  <4, 1>  
+# homes ^ 1  |  <2, 1>  
+# honestly ^ 1  |  <0, 1>  
+# honor ^ 1  |  <0, 1>  
+# hope ^ 1  |  <4, 1>  
+# house ^ 2  |  <0, 1>  <3, 1>  
+# housez ^ 1  |  <3, 1>  
+# houston ^ 1  |  <0, 1>  
+# huanca ^ 3  |  <2, 3>  
+# human ^ 6  |  <0, 4>  <3, 1>  <2, 1>  
+# hunted ^ 1  |  <3, 1>  
+# hunters ^ 1  |  <3, 1>  
+# ideal ^ 1  |  <3, 1>  
+# ideas ^ 1  |  <1, 1>  
+# ideology ^ 2  |  <2, 2>  
+# illdefined ^ 1  |  <1, 1>  
+# illiterate ^ 1  |  <2, 1>  
+# illustrated ^ 1  |  <0, 1>  
+# imagery ^ 1  |  <2, 1>  
+# images ^ 1  |  <0, 1>  
+# impact ^ 2  |  <0, 2>  
+# impacts ^ 1  |  <0, 1>  
+# impeccable ^ 1  |  <1, 1>  
+# implementation ^ 1  |  <0, 1>  
+# important ^ 2  |  <2, 2>  
+# impose ^ 1  |  <1, 1>  
+# impossible ^ 1  |  <0, 1>  
+# imprisoned ^ 1  |  <1, 1>  
+# improvement ^ 1  |  <1, 1>  
+# improving ^ 1  |  <1, 1>  
+# inadvertently ^ 1  |  <1, 1>  
+# inclusion ^ 1  |  <0, 1>  
+# increasingly ^ 1  |  <2, 1>  
+# independence ^ 1  |  <1, 1>  
+# independent ^ 2  |  <1, 2>  
+# index ^ 1  |  <0, 1>  
+# indexed ^ 1  |  <1, 1>  
+# india ^ 1  |  <1, 1>  
+# indian ^ 6  |  <2, 6>  
+# indians ^ 5  |  <3, 1>  <2, 4>  
+# indication ^ 1  |  <2, 1>  
+# indignant ^ 1  |  <2, 1>  
+# indignation ^ 1  |  <2, 1>  
+# indistinguishable ^ 1  |  <2, 1>  
+# individual ^ 1  |  <0, 1>  
+# industry ^ 1  |  <2, 1>  
+# inexhaustible ^ 1  |  <1, 1>  
+# inexorable ^ 1  |  <2, 1>  
+# infamous ^ 1  |  <1, 1>  
+# information ^ 2  |  <1, 1>  <0, 1>  
+# informative ^ 1  |  <2, 1>  
+# inhabitants ^ 1  |  <3, 1>  
+# inhabited ^ 1  |  <3, 1>  
+# injustice ^ 1  |  <2, 1>  
+# innocence ^ 1  |  <2, 1>  
+# inquiring ^ 1  |  <1, 1>  
+# inscribed ^ 1  |  <3, 1>  
+# insights ^ 2  |  <0, 2>  
+# inspection ^ 1  |  <0, 1>  
+# inspire ^ 1  |  <2, 1>  
+# inspired ^ 2  |  <1, 1>  <2, 1>  
+# instance ^ 1  |  <1, 1>  
+# instinct ^ 1  |  <3, 1>  
+# instinctive ^ 1  |  <2, 1>  
+# instincts ^ 1  |  <3, 1>  
+# institute ^ 1  |  <0, 1>  
+# intellectual ^ 1  |  <1, 1>  
+# intellectuals ^ 1  |  <2, 1>  
+# intelligent ^ 2  |  <1, 2>  
+# intended ^ 1  |  <0, 1>  
+# intermittent ^ 1  |  <2, 1>  
+# internal ^ 1  |  <0, 1>  
+# interpretation ^ 1  |  <0, 1>  
+# interrupt ^ 1  |  <2, 1>  
+# intrigued ^ 1  |  <1, 1>  
+# introduction ^ 1  |  <1, 1>  
+# investigations ^ 1  |  <0, 1>  
+# invisibly ^ 1  |  <1, 1>  
+# invited ^ 1  |  <4, 1>  
+# inwardly ^ 1  |  <3, 1>  
+# irnois ^ 1  |  <1, 1>  
+# ironic ^ 1  |  <0, 1>  
+# irrelevant ^ 2  |  <2, 2>  
+# island ^ 1  |  <3, 1>  
+# isnt ^ 1  |  <0, 1>  
+# issued ^ 1  |  <0, 1>  
+# issuing ^ 1  |  <0, 1>  
+# jack ^ 1  |  <3, 1>  
+# james ^ 1  |  <0, 1>  
+# january ^ 5  |  <1, 1>  <0, 1>  <3, 1>  <2, 1>  <4, 1>  
+# jardin ^ 1  |  <1, 1>  
+# jardins ^ 3  |  <1, 3>  
+# jean ^ 2  |  <3, 2>  
+# jeremy ^ 2  |  <3, 2>  
+# jesus ^ 1  |  <3, 1>  
+# job ^ 1  |  <2, 1>  
+# jobs ^ 1  |  <2, 1>  
+# john ^ 1  |  <3, 1>  
+# joins ^ 1  |  <4, 1>  
+# jose ^ 1  |  <2, 1>  
+# journalist ^ 3  |  <1, 1>  <0, 1>  <2, 1>  
+# journalists ^ 1  |  <0, 1>  
+# judged ^ 1  |  <3, 1>  
+# judgment ^ 1  |  <1, 1>  
+# judgments ^ 1  |  <0, 1>  
+# july ^ 1  |  <0, 1>  
+# justice ^ 2  |  <1, 1>  <2, 1>  
+# justifying ^ 1  |  <1, 1>  
+# kaweskar ^ 1  |  <3, 1>  
+# kevin ^ 2  |  <2, 2>  
+# kidnaped ^ 1  |  <3, 1>  
+# kiev ^ 2  |  <0, 2>  
+# kill ^ 1  |  <2, 1>  
+# kind ^ 3  |  <1, 1>  <3, 1>  <2, 1>  
+# king ^ 1  |  <3, 1>  
+# knife ^ 1  |  <2, 1>  
+# know ^ 2  |  <1, 1>  <0, 1>  
+# known ^ 2  |  <1, 1>  <3, 1>  
+# kremlin ^ 1  |  <0, 1>  
+# la ^ 3  |  <1, 2>  <2, 1>  
+# labels ^ 1  |  <0, 1>  
+# labor ^ 1  |  <2, 1>  
+# lack ^ 2  |  <1, 1>  <2, 1>  
+# lafko ^ 1  |  <3, 1>  
+# lamartine ^ 1  |  <1, 1>  
+# lamented ^ 1  |  <1, 1>  
+# lancien ^ 2  |  <1, 2>  
+# land ^ 3  |  <3, 2>  <2, 1>  
+# lands ^ 1  |  <3, 1>  
+# lanes ^ 1  |  <3, 1>  
+# language ^ 1  |  <2, 1>  
+# languages ^ 1  |  <3, 1>  
+# large ^ 2  |  <0, 1>  <2, 1>  
+# larger ^ 1  |  <1, 1>  
+# late ^ 1  |  <2, 1>  
+# later ^ 3  |  <1, 1>  <3, 1>  <2, 1>  
+# latest ^ 1  |  <3, 1>  
+# lateterm ^ 1  |  <0, 1>  
+# latin ^ 3  |  <3, 1>  <2, 2>  
+# laws ^ 1  |  <1, 1>  
+# layman ^ 1  |  <1, 1>  
+# leading ^ 1  |  <0, 1>  
+# leaps ^ 1  |  <1, 1>  
+# led ^ 6  |  <1, 1>  <0, 3>  <2, 2>  
+# legacy ^ 1  |  <3, 1>  
+# legasov ^ 1  |  <0, 1>  
+# legasovs ^ 1  |  <0, 1>  
+# legends ^ 1  |  <3, 1>  
+# leggatt ^ 1  |  <3, 1>  
+# leggatts ^ 1  |  <3, 1>  
+# legislator ^ 1  |  <1, 1>  
+# legitimacy ^ 1  |  <1, 1>  
+# length ^ 1  |  <0, 1>  
+# lenin ^ 1  |  <2, 1>  
+# leon ^ 1  |  <1, 1>  
+# lesser ^ 1  |  <3, 1>  
+# levels ^ 4  |  <0, 4>  
+# liberal ^ 1  |  <1, 1>  
+# liberalism ^ 1  |  <1, 1>  
+# liberalizing ^ 1  |  <1, 1>  
+# lies ^ 1  |  <0, 1>  
+# life ^ 4  |  <1, 2>  <3, 1>  <2, 1>  
+# light ^ 1  |  <0, 1>  
+# lighterskinned ^ 1  |  <2, 1>  
+# liked ^ 1  |  <1, 1>  
+# likely ^ 1  |  <0, 1>  
+# limitation ^ 1  |  <3, 1>  
+# limits ^ 2  |  <0, 2>  
+# line ^ 2  |  <0, 1>  <2, 1>  
+# list ^ 1  |  <0, 1>  
+# literature ^ 4  |  <1, 1>  <3, 1>  <2, 2>  
+# live ^ 2  |  <3, 1>  <2, 1>  
+# lived ^ 1  |  <1, 1>  
+# livelier ^ 1  |  <1, 1>  
+# livelihood ^ 1  |  <2, 1>  
+# living ^ 2  |  <3, 1>  <2, 1>  
+# llosa ^ 1  |  <3, 1>  
+# local ^ 5  |  <1, 3>  <0, 1>  <2, 1>  
+# long ^ 3  |  <1, 1>  <3, 1>  <2, 1>  
+# look ^ 2  |  <1, 2>  
+# looked ^ 1  |  <0, 1>  
+# looking ^ 1  |  <1, 1>  
+# los ^ 2  |  <2, 1>  <4, 1>  
+# loss ^ 1  |  <2, 1>  
+# lot ^ 1  |  <1, 1>  
+# loud ^ 1  |  <3, 1>  
+# louisnapoleon ^ 1  |  <1, 1>  
+# louisnapoleons ^ 1  |  <1, 1>  
+# love ^ 1  |  <2, 1>  
+# luckier ^ 1  |  <1, 1>  
+# lured ^ 1  |  <2, 1>  
+# lydia ^ 1  |  <1, 1>  
+# machiguengas ^ 1  |  <3, 1>  
+# mad ^ 1  |  <3, 1>  
+# made ^ 2  |  <1, 1>  <0, 1>  
+# mademoiselle ^ 1  |  <1, 1>  
+# magellan ^ 3  |  <3, 3>  
+# main ^ 2  |  <0, 2>  
+# maintains ^ 1  |  <0, 1>  
+# major ^ 4  |  <1, 2>  <0, 1>  <2, 1>  
+# makes ^ 1  |  <1, 1>  
+# malesherbes ^ 1  |  <1, 1>  
+# malnourishment ^ 1  |  <0, 1>  
+# man ^ 4  |  <1, 2>  <2, 2>  
+# managed ^ 2  |  <1, 2>  
+# manifestations ^ 1  |  <1, 1>  
+# manner ^ 1  |  <1, 1>  
+# mans ^ 1  |  <3, 1>  
+# manuel ^ 1  |  <2, 1>  
+# mapping ^ 1  |  <0, 1>  
+# march ^ 2  |  <2, 2>  
+# mariategui ^ 1  |  <2, 1>  
+# mario ^ 1  |  <3, 1>  
+# marked ^ 1  |  <0, 1>  
+# marples ^ 7  |  <0, 7>  
+# marquezs ^ 1  |  <2, 1>  
+# marshal ^ 2  |  <4, 2>  
+# marshals ^ 1  |  <4, 1>  
+# martin ^ 1  |  <3, 1>  
+# martins ^ 1  |  <0, 1>  
+# marvelous ^ 1  |  <1, 1>  
+# marxism ^ 1  |  <2, 1>  
+# massacre ^ 1  |  <2, 1>  
+# masse ^ 1  |  <2, 1>  
+# masters ^ 1  |  <2, 1>  
+# material ^ 2  |  <2, 2>  
+# meager ^ 1  |  <2, 1>  
+# meant ^ 1  |  <1, 1>  
+# mechanical ^ 1  |  <2, 1>  
+# medical ^ 2  |  <0, 2>  
+# meet ^ 1  |  <1, 1>  
+# memories ^ 1  |  <2, 1>  
+# memory ^ 1  |  <3, 1>  
+# mercifully ^ 1  |  <2, 1>  
+# mercury ^ 1  |  <3, 1>  
+# metropolitan ^ 1  |  <1, 1>  
+# mezey ^ 3  |  <2, 3>  
+# middle ^ 2  |  <1, 2>  
+# milieu ^ 1  |  <0, 1>  
+# militant ^ 1  |  <2, 1>  
+# military ^ 3  |  <0, 1>  <2, 2>  
+# millennia ^ 1  |  <3, 1>  
+# mind ^ 2  |  <3, 2>  
+# mines ^ 3  |  <2, 3>  
+# mining ^ 2  |  <2, 2>  
+# minister ^ 1  |  <1, 1>  
+# ministry ^ 2  |  <1, 2>  
+# minor ^ 1  |  <2, 1>  
+# missionary ^ 1  |  <3, 1>  
+# mistranslated ^ 1  |  <0, 1>  
+# mistreatment ^ 1  |  <2, 1>  
+# mistrusted ^ 1  |  <1, 1>  
+# mixed ^ 1  |  <2, 1>  
+# mixture ^ 1  |  <1, 1>  
+# modern ^ 1  |  <2, 1>  
+# modular ^ 1  |  <0, 1>  
+# momentarily ^ 1  |  <2, 1>  
+# monarchy ^ 1  |  <1, 1>  
+# monday ^ 2  |  <4, 2>  
+# mongers ^ 1  |  <0, 1>  
+# montaigne ^ 1  |  <1, 1>  
+# months ^ 2  |  <1, 1>  <3, 1>  
+# montt ^ 1  |  <3, 1>  
+# moral ^ 1  |  <2, 1>  
+# moscow ^ 2  |  <0, 2>  
+# mourned ^ 1  |  <2, 1>  
+# move ^ 1  |  <3, 1>  
+# moved ^ 1  |  <1, 1>  
+# movement ^ 1  |  <2, 1>  
+# moves ^ 1  |  <2, 1>  
+# moving ^ 1  |  <3, 1>  
+# mrs ^ 1  |  <4, 1>  
+# mules ^ 1  |  <2, 1>  
+# multitude ^ 1  |  <0, 1>  
+# mysteries ^ 1  |  <0, 1>  
+# myth ^ 1  |  <0, 1>  
+# mythmaking ^ 1  |  <0, 1>  
+# myths ^ 1  |  <3, 1>  
+# names ^ 1  |  <0, 1>  
+# narration ^ 1  |  <1, 1>  
+# narrative ^ 1  |  <0, 1>  
+# nations ^ 1  |  <3, 1>  
+# native ^ 2  |  <3, 2>  
+# natural ^ 2  |  <0, 1>  <2, 1>  
+# nature ^ 3  |  <1, 1>  <0, 1>  <2, 1>  
+# neared ^ 1  |  <0, 1>  
+# nearslavery ^ 1  |  <2, 1>  
+# necessity ^ 1  |  <1, 1>  
+# nedelin ^ 1  |  <0, 1>  
+# need ^ 3  |  <0, 3>  
+# needs ^ 1  |  <1, 1>  
+# negros ^ 1  |  <2, 1>  
+# newly ^ 1  |  <1, 1>  
+# nicanor ^ 1  |  <2, 1>  
+# night ^ 1  |  <2, 1>  
+# nixon ^ 1  |  <4, 1>  
+# nobility ^ 1  |  <1, 1>  
+# noble ^ 1  |  <3, 1>  
+# nobleman ^ 1  |  <1, 1>  
+# nonexplanations ^ 1  |  <0, 1>  
+# nonsense ^ 1  |  <0, 1>  
+# nonsoviet ^ 1  |  <0, 1>  
+# nonvolunteer ^ 1  |  <0, 1>  
+# normandy ^ 1  |  <1, 1>  
+# north ^ 1  |  <2, 1>  
+# notary ^ 1  |  <2, 1>  
+# notebooks ^ 1  |  <0, 1>  
+# novel ^ 4  |  <2, 4>  
+# novelist ^ 1  |  <3, 1>  
+# novels ^ 1  |  <2, 1>  
+# nowextinct ^ 1  |  <3, 1>  
+# nuclear ^ 2  |  <0, 2>  
+# number ^ 1  |  <0, 1>  
+# numbers ^ 1  |  <2, 1>  
+# numerous ^ 1  |  <1, 1>  
+# oberg ^ 2  |  <0, 2>  
+# objective ^ 1  |  <2, 1>  
+# objectives ^ 1  |  <0, 1>  
+# obligated ^ 1  |  <0, 1>  
+# obliged ^ 1  |  <2, 1>  
+# observations ^ 1  |  <1, 1>  
+# observer ^ 1  |  <1, 1>  
+# observers ^ 1  |  <1, 1>  
+# observes ^ 1  |  <0, 1>  
+# obtained ^ 1  |  <2, 1>  
+# obvious ^ 1  |  <0, 1>  
+# occasional ^ 1  |  <1, 1>  
+# occur ^ 1  |  <0, 1>  
+# occurred ^ 1  |  <0, 1>  
+# oconnor ^ 2  |  <2, 2>  
+# offense ^ 1  |  <1, 1>  
+# office ^ 1  |  <2, 1>  
+# official ^ 8  |  <0, 8>  
+# officially ^ 2  |  <0, 1>  <2, 1>  
+# officials ^ 3  |  <0, 1>  <2, 2>  
+# oldfashioned ^ 1  |  <1, 1>  
+# oldstyle ^ 1  |  <0, 1>  
+# onset ^ 1  |  <0, 1>  
+# openminded ^ 1  |  <1, 1>  
+# openness ^ 2  |  <0, 2>  
+# operations ^ 2  |  <0, 2>  
+# operator ^ 1  |  <0, 1>  
+# opportunity ^ 1  |  <2, 1>  
+# order ^ 3  |  <1, 1>  <0, 1>  <2, 1>  
+# ordered ^ 1  |  <2, 1>  
+# organic ^ 1  |  <1, 1>  
+# organization ^ 1  |  <0, 1>  
+# organized ^ 1  |  <1, 1>  
+# original ^ 1  |  <1, 1>  
+# orthodoxy ^ 1  |  <2, 1>  
+# ostensibly ^ 1  |  <1, 1>  
+# ottoman ^ 1  |  <1, 1>  
+# outcome ^ 1  |  <3, 1>  
+# outcry ^ 1  |  <2, 1>  
+# outrage ^ 1  |  <2, 1>  
+# outright ^ 1  |  <0, 1>  
+# overview ^ 1  |  <0, 1>  
+# page ^ 5  |  <1, 1>  <0, 1>  <3, 1>  <2, 1>  <4, 1>  
+# pain ^ 1  |  <2, 1>  
+# panic ^ 1  |  <0, 1>  
+# paper ^ 1  |  <0, 1>  
+# parade ^ 5  |  <4, 5>  
+# parades ^ 1  |  <4, 1>  
+# parallel ^ 1  |  <3, 1>  
+# parentage ^ 1  |  <1, 1>  
+# pariahs ^ 1  |  <3, 1>  
+# paris ^ 1  |  <2, 1>  
+# parliamentary ^ 1  |  <1, 1>  
+# parra ^ 1  |  <2, 1>  
+# part ^ 1  |  <0, 1>  
+# partially ^ 1  |  <1, 1>  
+# partisan ^ 1  |  <2, 1>  
+# party ^ 1  |  <0, 1>  
+# pasadena ^ 1  |  <4, 1>  
+# passage ^ 1  |  <3, 1>  
+# passed ^ 1  |  <0, 1>  
+# passion ^ 2  |  <1, 1>  <2, 1>  
+# passionate ^ 1  |  <2, 1>  
+# passions ^ 1  |  <1, 1>  
+# past ^ 3  |  <1, 2>  <0, 1>  
+# path ^ 2  |  <2, 2>  
+# paths ^ 1  |  <2, 1>  
+# peasants ^ 1  |  <2, 1>  
+# penitentiary ^ 2  |  <1, 2>  
+# people ^ 7  |  <1, 2>  <0, 2>  <3, 2>  <2, 1>  
+# peoples ^ 2  |  <3, 2>  
+# percent ^ 1  |  <0, 1>  
+# performed ^ 1  |  <0, 1>  
+# period ^ 1  |  <1, 1>  
+# periphery ^ 1  |  <2, 1>  
+# permits ^ 1  |  <2, 1>  
+# person ^ 1  |  <2, 1>  
+# personal ^ 1  |  <0, 1>  
+# personnel ^ 2  |  <0, 2>  
+# peru ^ 3  |  <2, 3>  
+# peruvian ^ 5  |  <3, 1>  <2, 4>  
+# petit ^ 1  |  <2, 1>  
+# philadelphia ^ 1  |  <1, 1>  
+# philip ^ 2  |  <1, 1>  <3, 1>  
+# photo ^ 4  |  <0, 1>  <3, 1>  <4, 2>  
+# photograph ^ 1  |  <0, 1>  
+# photographs ^ 2  |  <0, 2>  
+# picture ^ 1  |  <0, 1>  
+# piece ^ 2  |  <1, 1>  <3, 1>  
+# piercing ^ 1  |  <2, 1>  
+# pioneer ^ 1  |  <0, 1>  
+# pity ^ 1  |  <2, 1>  
+# place ^ 3  |  <1, 1>  <0, 1>  <2, 1>  
+# plain ^ 1  |  <0, 1>  
+# plantation ^ 1  |  <2, 1>  
+# plantations ^ 1  |  <2, 1>  
+# play ^ 1  |  <2, 1>  
+# playing ^ 1  |  <4, 1>  
+# poems ^ 1  |  <2, 1>  
+# poet ^ 2  |  <3, 1>  <2, 1>  
+# poetic ^ 1  |  <2, 1>  
+# poets ^ 1  |  <2, 1>  
+# point ^ 3  |  <1, 1>  <0, 1>  <3, 1>  
+# policy ^ 3  |  <0, 3>  
+# political ^ 8  |  <1, 5>  <0, 1>  <2, 2>  
+# politics ^ 1  |  <2, 1>  
+# ponderously ^ 1  |  <2, 1>  
+# ponders ^ 1  |  <3, 1>  
+# poor ^ 2  |  <0, 1>  <2, 1>  
+# popular ^ 1  |  <2, 1>  
+# port ^ 1  |  <3, 1>  
+# portending ^ 1  |  <2, 1>  
+# position ^ 1  |  <2, 1>  
+# possessions ^ 1  |  <1, 1>  
+# postrevolutionary ^ 1  |  <1, 1>  
+# postscript ^ 1  |  <2, 1>  
+# poverty ^ 1  |  <1, 1>  
+# power ^ 4  |  <1, 1>  <0, 3>  
+# powerbrokering ^ 1  |  <2, 1>  
+# powerful ^ 1  |  <1, 1>  
+# pp ^ 4  |  <1, 1>  <0, 1>  <3, 1>  <2, 1>  
+# pravda ^ 1  |  <0, 1>  
+# precedent ^ 1  |  <1, 1>  
+# precisely ^ 1  |  <0, 1>  
+# predators ^ 1  |  <1, 1>  
+# predetermined ^ 1  |  <2, 1>  
+# prejudiced ^ 1  |  <1, 1>  
+# prepare ^ 1  |  <1, 1>  
+# preparing ^ 1  |  <1, 1>  
+# presages ^ 1  |  <0, 1>  
+# prescripted ^ 1  |  <0, 1>  
+# present ^ 2  |  <1, 1>  <0, 1>  
+# preserve ^ 1  |  <1, 1>  
+# presidency ^ 1  |  <1, 1>  
+# president ^ 1  |  <1, 1>  
+# presides ^ 1  |  <4, 1>  
+# press ^ 5  |  <1, 1>  <0, 2>  <3, 1>  <2, 1>  
+# pretending ^ 1  |  <1, 1>  
+# primary ^ 1  |  <0, 1>  
+# primitive ^ 1  |  <3, 1>  
+# prison ^ 2  |  <1, 2>  
+# prisoners ^ 1  |  <2, 1>  
+# private ^ 1  |  <0, 1>  
+# privateer ^ 1  |  <3, 1>  
+# problem ^ 2  |  <2, 2>  
+# process ^ 1  |  <1, 1>  
+# proclaiming ^ 1  |  <2, 1>  
+# professor ^ 1  |  <3, 1>  
+# professors ^ 1  |  <1, 1>  
+# profits ^ 1  |  <2, 1>  
+# profound ^ 1  |  <1, 1>  
+# program ^ 1  |  <0, 1>  
+# proletarian ^ 1  |  <2, 1>  
+# proletariat ^ 1  |  <2, 1>  
+# promulgating ^ 1  |  <0, 1>  
+# pronuclear ^ 1  |  <0, 1>  
+# propaganda ^ 1  |  <0, 1>  
+# propelled ^ 1  |  <1, 1>  
+# properly ^ 1  |  <0, 1>  
+# prophetic ^ 1  |  <1, 1>  
+# prose ^ 1  |  <1, 1>  
+# protested ^ 1  |  <1, 1>  
+# provided ^ 3  |  <0, 1>  <2, 2>  
+# provincial ^ 1  |  <2, 1>  
+# public ^ 5  |  <1, 1>  <0, 3>  <2, 1>  
+# publication ^ 1  |  <1, 1>  
+# publicity ^ 1  |  <0, 1>  
+# publicizing ^ 1  |  <0, 1>  
+# publishing ^ 1  |  <2, 1>  
+# puerto ^ 1  |  <3, 1>  
+# purpose ^ 1  |  <0, 1>  
+# pursue ^ 1  |  <2, 1>  
+# push ^ 1  |  <1, 1>  
+# qualities ^ 1  |  <2, 1>  
+# quality ^ 1  |  <0, 1>  
+# quarter ^ 1  |  <0, 1>  
+# quest ^ 1  |  <3, 1>  
+# questions ^ 4  |  <1, 4>  
+# quirky ^ 1  |  <2, 1>  
+# quiruvilca ^ 1  |  <2, 1>  
+# quota ^ 1  |  <2, 1>  
+# quotas ^ 1  |  <2, 1>  
+# race ^ 1  |  <2, 1>  
+# racial ^ 1  |  <2, 1>  
+# racism ^ 1  |  <2, 1>  
+# radiation ^ 3  |  <0, 3>  
+# radical ^ 1  |  <2, 1>  
+# radically ^ 1  |  <2, 1>  
+# radiophobia ^ 1  |  <0, 1>  
+# random ^ 1  |  <0, 1>  
+# rarely ^ 4  |  <1, 1>  <0, 2>  <2, 1>  
+# raspail ^ 5  |  <3, 5>  
+# raspails ^ 1  |  <3, 1>  
+# rate ^ 1  |  <0, 1>  
+# raul ^ 2  |  <3, 1>  <2, 1>  
+# raw ^ 2  |  <0, 1>  <2, 1>  
+# reacted ^ 1  |  <0, 1>  
+# reactor ^ 5  |  <0, 5>  
+# reactors ^ 2  |  <0, 2>  
+# read ^ 4  |  <1, 1>  <0, 1>  <2, 2>  
+# reader ^ 6  |  <1, 1>  <0, 2>  <3, 2>  <2, 1>  
+# readers ^ 3  |  <0, 3>  
+# readied ^ 1  |  <1, 1>  
+# reading ^ 1  |  <1, 1>  
+# reads ^ 1  |  <2, 1>  
+# ready ^ 1  |  <2, 1>  
+# real ^ 1  |  <0, 1>  
+# realities ^ 1  |  <2, 1>  
+# reality ^ 1  |  <0, 1>  
+# reasons ^ 2  |  <1, 1>  <0, 1>  
+# recent ^ 2  |  <1, 1>  <3, 1>  
+# recently ^ 3  |  <0, 2>  <2, 1>  
+# rechristened ^ 1  |  <3, 1>  
+# reconstruction ^ 1  |  <0, 1>  
+# reconstructs ^ 1  |  <3, 1>  
+# recovery ^ 1  |  <0, 1>  
+# recruits ^ 1  |  <2, 1>  
+# reduced ^ 1  |  <3, 1>  
+# reference ^ 1  |  <1, 1>  
+# references ^ 1  |  <0, 1>  
+# referred ^ 1  |  <0, 1>  
+# reform ^ 4  |  <1, 4>  
+# refused ^ 1  |  <3, 1>  
+# regime ^ 2  |  <1, 2>  
+# region ^ 1  |  <1, 1>  
+# regretting ^ 1  |  <1, 1>  
+# regulations ^ 1  |  <0, 1>  
+# reign ^ 1  |  <1, 1>  
+# reigns ^ 1  |  <2, 1>  
+# relative ^ 2  |  <1, 2>  
+# released ^ 3  |  <0, 3>  
+# religious ^ 1  |  <1, 1>  
+# remained ^ 1  |  <2, 1>  
+# remaining ^ 1  |  <0, 1>  
+# remains ^ 1  |  <0, 1>  
+# remember ^ 1  |  <3, 1>  
+# rendering ^ 1  |  <1, 1>  
+# repercussions ^ 1  |  <0, 1>  
+# representatives ^ 1  |  <2, 1>  
+# repression ^ 1  |  <2, 1>  
+# reproached ^ 1  |  <1, 1>  
+# republic ^ 2  |  <1, 2>  
+# rescued ^ 1  |  <3, 1>  
+# research ^ 1  |  <0, 1>  
+# residence ^ 1  |  <1, 1>  
+# respect ^ 1  |  <1, 1>  
+# responded ^ 1  |  <1, 1>  
+# responses ^ 2  |  <1, 2>  
+# responsibilities ^ 1  |  <3, 1>  
+# responsible ^ 1  |  <3, 1>  
+# restart ^ 1  |  <0, 1>  
+# restricted ^ 1  |  <0, 1>  
+# result ^ 1  |  <1, 1>  
+# retreat ^ 1  |  <0, 1>  
+# return ^ 1  |  <4, 1>  
+# returned ^ 1  |  <3, 1>  
+# returns ^ 1  |  <3, 1>  
+# reveal ^ 1  |  <1, 1>  
+# reveals ^ 3  |  <1, 2>  <3, 1>  
+# revelations ^ 1  |  <0, 1>  
+# reverberated ^ 1  |  <0, 1>  
+# reverberations ^ 1  |  <3, 1>  
+# review ^ 13  |  <1, 3>  <0, 3>  <3, 3>  <2, 3>  <4, 1>  
+# revisit ^ 1  |  <0, 1>  
+# revolution ^ 4  |  <1, 3>  <2, 1>  
+# revolutionary ^ 1  |  <2, 1>  
+# rhythms ^ 1  |  <2, 1>  
+# richard ^ 1  |  <4, 1>  
+# ride ^ 1  |  <2, 1>  
+# riding ^ 1  |  <4, 1>  
+# rights ^ 1  |  <0, 1>  
+# rigidly ^ 1  |  <2, 1>  
+# rising ^ 1  |  <2, 1>  
+# robert ^ 3  |  <1, 1>  <2, 2>  
+# romance ^ 1  |  <1, 1>  
+# roots ^ 2  |  <1, 1>  <2, 1>  
+# rose ^ 2  |  <4, 2>  
+# roses ^ 1  |  <4, 1>  
+# royercollard ^ 1  |  <1, 1>  
+# ruling ^ 1  |  <2, 1>  
+# run ^ 1  |  <1, 1>  
+# sad ^ 1  |  <3, 1>  
+# safety ^ 2  |  <0, 2>  
+# sahara ^ 1  |  <1, 1>  
+# sanctioned ^ 1  |  <2, 1>  
+# sanitized ^ 1  |  <0, 1>  
+# santiago ^ 1  |  <2, 1>  
+# sarcophagus ^ 2  |  <0, 2>  
+# sat ^ 1  |  <1, 1>  
+# saved ^ 1  |  <3, 1>  
+# saw ^ 3  |  <1, 1>  <2, 2>  
+# say ^ 2  |  <1, 1>  <2, 1>  
+# scene ^ 1  |  <3, 1>  
+# schedules ^ 1  |  <0, 1>  
+# schmitt ^ 2  |  <3, 2>  
+# scholar ^ 1  |  <1, 1>  
+# scholarship ^ 2  |  <1, 1>  <0, 1>  
+# school ^ 1  |  <2, 1>  
+# scientists ^ 1  |  <3, 1>  
+# scorza ^ 1  |  <2, 1>  
+# scramble ^ 1  |  <2, 1>  
+# scrupulous ^ 2  |  <1, 2>  
+# seal ^ 1  |  <3, 1>  
+# seanomads ^ 1  |  <3, 1>  
+# seas ^ 1  |  <3, 1>  
+# second ^ 3  |  <0, 2>  <2, 1>  
+# secondary ^ 1  |  <2, 1>  
+# secret ^ 1  |  <0, 1>  
+# secretary ^ 1  |  <1, 1>  
+# secretkeepers ^ 1  |  <0, 1>  
+# secrets ^ 1  |  <0, 1>  
+# section ^ 1  |  <2, 1>  
+# sections ^ 2  |  <0, 2>  
+# seen ^ 1  |  <3, 1>  
+# select ^ 1  |  <4, 1>  
+# sensational ^ 1  |  <1, 1>  
+# sensitivity ^ 1  |  <2, 1>  
+# sentence ^ 1  |  <2, 1>  
+# separate ^ 1  |  <1, 1>  
+# separation ^ 1  |  <1, 1>  
+# series ^ 2  |  <2, 2>  
+# servando ^ 3  |  <2, 3>  
+# servant ^ 1  |  <1, 1>  
+# serve ^ 1  |  <0, 1>  
+# served ^ 1  |  <1, 1>  
+# service ^ 1  |  <2, 1>  
+# sessions ^ 1  |  <0, 1>  
+# set ^ 1  |  <3, 1>  
+# sets ^ 1  |  <2, 1>  
+# setter ^ 1  |  <2, 1>  
+# settlement ^ 2  |  <1, 1>  <3, 1>  
+# severe ^ 2  |  <0, 2>  
+# shameful ^ 1  |  <3, 1>  
+# shape ^ 2  |  <2, 2>  
+# shattered ^ 1  |  <1, 1>  
+# shes ^ 1  |  <4, 1>  
+# shiftings ^ 1  |  <1, 1>  
+# shining ^ 3  |  <0, 1>  <2, 2>  
+# shipping ^ 1  |  <3, 1>  
+# ships ^ 1  |  <3, 1>  
+# shipwrecked ^ 1  |  <3, 1>  
+# shirley ^ 3  |  <4, 3>  
+# shooting ^ 1  |  <2, 1>  
+# shortage ^ 1  |  <0, 1>  
+# shortterm ^ 1  |  <0, 1>  
+# shown ^ 2  |  <1, 1>  <4, 1>  
+# shrouded ^ 1  |  <3, 1>  
+# side ^ 2  |  <1, 1>  <3, 1>  
+# signs ^ 1  |  <2, 1>  
+# simultaneously ^ 1  |  <1, 1>  
+# sinking ^ 1  |  <0, 1>  
+# sir ^ 1  |  <3, 1>  
+# sister ^ 1  |  <3, 1>  
+# sit ^ 1  |  <0, 1>  
+# site ^ 1  |  <0, 1>  
+# sketchy ^ 1  |  <0, 1>  
+# skill ^ 1  |  <2, 1>  
+# skip ^ 1  |  <0, 1>  
+# sky ^ 1  |  <3, 1>  
+# slavery ^ 2  |  <1, 2>  
+# sleazy ^ 1  |  <2, 1>  
+# sleuthing ^ 1  |  <0, 1>  
+# slippery ^ 1  |  <1, 1>  
+# small ^ 1  |  <2, 1>  
+# smith ^ 2  |  <1, 2>  
+# smiths ^ 1  |  <1, 1>  
+# smug ^ 1  |  <3, 1>  
+# snide ^ 1  |  <1, 1>  
+# snow ^ 1  |  <3, 1>  
+# sober ^ 1  |  <0, 1>  
+# soberest ^ 1  |  <1, 1>  
+# social ^ 6  |  <1, 1>  <0, 3>  <2, 2>  
+# socialism ^ 1  |  <2, 1>  
+# society ^ 5  |  <0, 4>  <2, 1>  
+# songlines ^ 1  |  <3, 1>  
+# soon ^ 1  |  <0, 1>  
+# soras ^ 1  |  <2, 1>  
+# sorry ^ 1  |  <2, 1>  
+# soullife ^ 1  |  <3, 1>  
+# source ^ 1  |  <2, 1>  
+# sources ^ 3  |  <0, 3>  
+# south ^ 3  |  <3, 1>  <2, 2>  
+# southern ^ 1  |  <3, 1>  
+# soviet ^ 14  |  <0, 14>  
+# soviets ^ 2  |  <0, 2>  
+# soyuz1 ^ 1  |  <0, 1>  
+# space ^ 1  |  <0, 1>  
+# spains ^ 1  |  <3, 1>  
+# spanish ^ 2  |  <2, 2>  
+# speak ^ 1  |  <2, 1>  
+# speaker ^ 1  |  <3, 1>  
+# species ^ 1  |  <3, 1>  
+# sport ^ 1  |  <3, 1>  
+# st ^ 1  |  <0, 1>  
+# stage ^ 2  |  <2, 2>  
+# standards ^ 1  |  <0, 1>  
+# star ^ 1  |  <4, 1>  
+# starts ^ 1  |  <4, 1>  
+# starved ^ 1  |  <3, 1>  
+# state ^ 5  |  <1, 2>  <0, 2>  <2, 1>  
+# statement ^ 1  |  <1, 1>  
+# stations ^ 2  |  <3, 1>  <4, 1>  
+# status ^ 1  |  <2, 1>  
+# stay ^ 1  |  <1, 1>  
+# steps ^ 1  |  <2, 1>  
+# steve ^ 1  |  <4, 1>  
+# stinking ^ 1  |  <3, 1>  
+# store ^ 1  |  <1, 1>  
+# stories ^ 1  |  <1, 1>  
+# storm ^ 1  |  <2, 1>  
+# story ^ 7  |  <0, 4>  <3, 3>  
+# stragglers ^ 1  |  <3, 1>  
+# strait ^ 2  |  <3, 2>  
+# straus ^ 1  |  <1, 1>  
+# strongest ^ 1  |  <1, 1>  
+# struck ^ 1  |  <2, 1>  
+# structure ^ 1  |  <1, 1>  
+# structures ^ 1  |  <1, 1>  
+# struggle ^ 1  |  <2, 1>  
+# student ^ 2  |  <1, 1>  <2, 1>  
+# studies ^ 2  |  <0, 1>  <2, 1>  
+# study ^ 2  |  <1, 1>  <2, 1>  
+# stunningly ^ 1  |  <3, 1>  
+# subjugated ^ 1  |  <3, 1>  
+# subprefecture ^ 1  |  <2, 1>  
+# subsequent ^ 3  |  <0, 3>  
+# subsequently ^ 2  |  <0, 2>  
+# substance ^ 1  |  <0, 1>  
+# substantial ^ 1  |  <0, 1>  
+# substantially ^ 1  |  <1, 1>  
+# substantiation ^ 1  |  <2, 1>  
+# subtle ^ 1  |  <0, 1>  
+# succeeds ^ 1  |  <0, 1>  
+# success ^ 1  |  <1, 1>  
+# successful ^ 1  |  <3, 1>  
+# suffering ^ 1  |  <2, 1>  
+# suffrage ^ 1  |  <1, 1>  
+# sugar ^ 1  |  <2, 1>  
+# suicide ^ 2  |  <0, 2>  
+# summary ^ 1  |  <0, 1>  
+# sunday ^ 5  |  <1, 1>  <0, 1>  <3, 1>  <2, 1>  <4, 1>  
+# supply ^ 2  |  <0, 1>  <2, 1>  
+# supreme ^ 1  |  <2, 1>  
+# sur ^ 1  |  <1, 1>  
+# sure ^ 1  |  <2, 1>  
+# surprise ^ 1  |  <1, 1>  
+# surprised ^ 1  |  <0, 1>  
+# surprisingly ^ 1  |  <1, 1>  
+# surrounding ^ 1  |  <0, 1>  
+# survival ^ 2  |  <3, 2>  
+# survive ^ 1  |  <3, 1>  
+# survived ^ 1  |  <3, 1>  
+# suspects ^ 1  |  <0, 1>  
+# sweep ^ 1  |  <2, 1>  
+# swept ^ 1  |  <2, 1>  
+# symbolic ^ 1  |  <2, 1>  
+# synopsis ^ 1  |  <3, 1>  
+# syracuse ^ 1  |  <2, 1>  
+# system ^ 2  |  <1, 2>  
+# taboo ^ 1  |  <0, 1>  
+# tagged ^ 1  |  <0, 1>  
+# take ^ 4  |  <1, 2>  <2, 2>  
+# takes ^ 2  |  <2, 2>  
+# taking ^ 1  |  <0, 1>  
+# tally ^ 1  |  <0, 1>  
+# tambores ^ 1  |  <2, 1>  
+# task ^ 1  |  <0, 1>  
+# teaches ^ 1  |  <2, 1>  
+# television ^ 2  |  <4, 2>  
+# temple ^ 3  |  <4, 3>  
+# tens ^ 2  |  <0, 2>  
+# tenths ^ 1  |  <0, 1>  
+# teresa ^ 2  |  <4, 2>  
+# terms ^ 1  |  <2, 1>  
+# territory ^ 1  |  <3, 1>  
+# terror ^ 1  |  <2, 1>  
+# test ^ 1  |  <0, 1>  
+# testimony ^ 2  |  <0, 2>  
+# text ^ 3  |  <0, 2>  <2, 1>  
+# thematic ^ 1  |  <1, 1>  
+# theme ^ 2  |  <0, 2>  
+# themes ^ 3  |  <0, 3>  
+# thiers ^ 1  |  <1, 1>  
+# thing ^ 1  |  <1, 1>  
+# things ^ 1  |  <1, 1>  
+# think ^ 1  |  <1, 1>  
+# thinkers ^ 1  |  <1, 1>  
+# thought ^ 1  |  <1, 1>  
+# thoughtful ^ 1  |  <2, 1>  
+# thousands ^ 3  |  <0, 3>  
+# thrusts ^ 1  |  <2, 1>  
+# thuggery ^ 1  |  <2, 1>  
+# tied ^ 1  |  <2, 1>  
+# tierra ^ 3  |  <3, 3>  
+# time ^ 7  |  <1, 3>  <0, 1>  <2, 3>  
+# times ^ 2  |  <4, 2>  
+# timetested ^ 1  |  <1, 1>  
+# tip ^ 1  |  <3, 1>  
+# tocqueville ^ 12  |  <1, 12>  
+# tocquevilles ^ 6  |  <1, 6>  
+# todays ^ 1  |  <2, 1>  
+# tolerant ^ 1  |  <1, 1>  
+# toll ^ 1  |  <0, 1>  
+# topics ^ 1  |  <0, 1>  
+# tories ^ 2  |  <1, 2>  
+# torre ^ 1  |  <2, 1>  
+# totals ^ 1  |  <0, 1>  
+# tournament ^ 1  |  <4, 1>  
+# town ^ 2  |  <2, 2>  
+# tradition ^ 1  |  <2, 1>  
+# tragedy ^ 1  |  <2, 1>  
+# tragic ^ 3  |  <0, 1>  <3, 1>  <2, 1>  
+# training ^ 1  |  <0, 1>  
+# translated ^ 5  |  <1, 2>  <3, 1>  <2, 2>  
+# translating ^ 1  |  <2, 1>  
+# translation ^ 3  |  <3, 2>  <2, 1>  
+# translator ^ 2  |  <2, 2>  
+# travel ^ 1  |  <1, 1>  
+# travels ^ 1  |  <1, 1>  
+# trend ^ 1  |  <2, 1>  
+# trial ^ 2  |  <0, 2>  
+# tribe ^ 1  |  <3, 1>  
+# tribes ^ 2  |  <3, 2>  
+# tried ^ 1  |  <0, 1>  
+# triumphant ^ 1  |  <0, 1>  
+# troops ^ 1  |  <2, 1>  
+# true ^ 1  |  <3, 1>  
+# trujillo ^ 1  |  <2, 1>  
+# truth ^ 1  |  <1, 1>  
+# trying ^ 1  |  <1, 1>  
+# tuberculosis ^ 1  |  <1, 1>  
+# tungsten ^ 6  |  <2, 6>  
+# turks ^ 1  |  <1, 1>  
+# turmoil ^ 1  |  <1, 1>  
+# turn ^ 1  |  <2, 1>  
+# turned ^ 1  |  <3, 1>  
+# tv ^ 2  |  <4, 2>  
+# twentiethcentury ^ 1  |  <2, 1>  
+# twice ^ 1  |  <4, 1>  
+# twisted ^ 1  |  <0, 1>  
+# twothirds ^ 1  |  <2, 1>  
+# type ^ 1  |  <0, 1>  
+# typographical ^ 1  |  <2, 1>  
+# ugly ^ 1  |  <3, 1>  
+# ukrainian ^ 1  |  <0, 1>  
+# ultimately ^ 3  |  <0, 2>  <2, 1>  
+# unashamed ^ 1  |  <2, 1>  
+# unbiased ^ 1  |  <1, 1>  
+# unblemished ^ 1  |  <2, 1>  
+# unborn ^ 1  |  <0, 1>  
+# uncertainties ^ 1  |  <0, 1>  
+# uncovering ^ 1  |  <0, 1>  
+# underclass ^ 1  |  <2, 1>  
+# undisguised ^ 1  |  <0, 1>  
+# unfold ^ 1  |  <0, 1>  
+# unforgivable ^ 1  |  <2, 1>  
+# union ^ 1  |  <0, 1>  
+# university ^ 6  |  <1, 1>  <0, 1>  <3, 1>  <2, 3>  
+# unleashed ^ 1  |  <3, 1>  
+# unmitigated ^ 1  |  <2, 1>  
+# unnecessary ^ 1  |  <0, 1>  
+# unpredictable ^ 1  |  <0, 1>  
+# unprejudiced ^ 1  |  <1, 1>  
+# unpublished ^ 1  |  <0, 1>  
+# unraveled ^ 1  |  <3, 1>  
+# unrest ^ 1  |  <2, 1>  
+# unsensational ^ 1  |  <1, 1>  
+# utterly ^ 1  |  <2, 1>  
+# vallejo ^ 11  |  <2, 11>  
+# vallejos ^ 3  |  <2, 3>  
+# valley ^ 1  |  <2, 1>  
+# valognes ^ 1  |  <1, 1>  
+# vargas ^ 1  |  <3, 1>  
+# venal ^ 1  |  <2, 1>  
+# venom ^ 1  |  <0, 1>  
+# version ^ 1  |  <3, 1>  
+# victimization ^ 1  |  <2, 1>  
+# victims ^ 3  |  <0, 2>  <2, 1>  
+# victor ^ 1  |  <2, 1>  
+# victory ^ 1  |  <0, 1>  
+# view ^ 4  |  <0, 2>  <3, 2>  
+# vigilantes ^ 1  |  <2, 1>  
+# vignettes ^ 1  |  <2, 1>  
+# viktor ^ 1  |  <0, 1>  
+# vincennes ^ 1  |  <1, 1>  
+# violation ^ 1  |  <0, 1>  
+# violent ^ 2  |  <1, 1>  <2, 1>  
+# virtue ^ 1  |  <2, 1>  
+# virtuous ^ 1  |  <1, 1>  
+# visceral ^ 1  |  <2, 1>  
+# visible ^ 1  |  <2, 1>  
+# vision ^ 1  |  <1, 1>  
+# vladimir ^ 1  |  <0, 1>  
+# voila ^ 1  |  <1, 1>  
+# voter ^ 1  |  <1, 1>  
+# waist ^ 1  |  <2, 1>  
+# war ^ 1  |  <2, 1>  
+# warren ^ 1  |  <4, 1>  
+# watchables ^ 1  |  <4, 1>  
+# water ^ 1  |  <0, 1>  
+# wealth ^ 1  |  <2, 1>  
+# weapons ^ 1  |  <2, 1>  
+# wedged ^ 1  |  <3, 1>  
+# weeklong ^ 1  |  <0, 1>  
+# weeks ^ 1  |  <0, 1>  
+# western ^ 2  |  <0, 2>  
+# white ^ 1  |  <3, 1>  
+# wholehearted ^ 1  |  <2, 1>  
+# widespread ^ 1  |  <0, 1>  
+# wind ^ 1  |  <2, 1>  
+# winds ^ 2  |  <3, 2>  
+# windstorms ^ 1  |  <2, 1>  
+# witches ^ 1  |  <3, 1>  
+# witness ^ 1  |  <2, 1>  
+# witnessed ^ 1  |  <2, 1>  
+# women ^ 1  |  <0, 1>  
+# word ^ 1  |  <0, 1>  
+# words ^ 5  |  <1, 1>  <0, 1>  <3, 1>  <2, 1>  <4, 1>  
+# work ^ 7  |  <1, 4>  <3, 1>  <2, 2>  
+# workers ^ 3  |  <1, 1>  <2, 2>  
+# working ^ 1  |  <2, 1>  
+# works ^ 1  |  <3, 1>  
+# world ^ 8  |  <1, 1>  <3, 3>  <2, 4>  
+# worlds ^ 1  |  <0, 1>  
+# worst ^ 1  |  <3, 1>  
+# wounded ^ 1  |  <2, 1>  
+# wrenching ^ 1  |  <2, 1>  
+# writers ^ 1  |  <2, 1>  
+# writes ^ 1  |  <0, 1>  
+# writing ^ 2  |  <1, 1>  <2, 1>  
+# writings ^ 1  |  <2, 1>  
+# written ^ 3  |  <1, 1>  <2, 2>  
+# wrote ^ 1  |  <1, 1>  
+# yamana ^ 1  |  <3, 1>  
+# year ^ 1  |  <4, 1>  
+# yearn ^ 1  |  <1, 1>  
+# years ^ 6  |  <1, 2>  <3, 1>  <2, 2>  <4, 1>  
+# york ^ 1  |  <2, 1>  
+# young ^ 2  |  <1, 1>  <2, 1>  
+# youngest ^ 1  |  <4, 1>  
+# youth ^ 1  |  <3, 1>  
+# zuritas ^ 1  |  <3, 1>  

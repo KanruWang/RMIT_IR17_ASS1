@@ -11,10 +11,10 @@ class ParseModule:
     def __init__(self, docName, stopList=None):
         self.docName = docName
         self.docFile = open(docName, "r")
-        self.docCount = 0
+        self.docCount = -1
         self.docMap = []
         # create stopMod obj if stoplist is supplied, else None
-        if stopList != None:
+        if stopList != None and stopList != '':
             self.stopModule = stopMod.StopModule(stopList)
         else:
             self.stopModule = None
@@ -84,11 +84,11 @@ class ParseModule:
         # this *line* being passed should contain the docNo
         words = line.split(' ')
         docNo = words[1] # the docNo should always be the 2nd element
+        # increase the doc count
+        self.docCount += 1
         # pair and map id with DOCNO, all string values
         docPair = (str(self.docCount), docNo)
         self.docMap.append(docPair)
-        # increase the doc count
-        self.docCount += 1
         #print 'Doc Count: ' + str(self.docCount) # DEBUG
 
     # function to tokenize words, remove and clean, return word or None

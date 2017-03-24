@@ -12,8 +12,8 @@ Importing different modules at the start, using built libraries to read command-
 import sys
 
 # import different modules we wrote
-import parseMod
-import indexMod
+from parseMod import ParseModule
+from indexMod import IndexModule
 
 def main(argv):
     sourceFile = ''
@@ -31,10 +31,7 @@ def main(argv):
         else:
             if argvLine == '-p':
                 printOut = True
-    if len(argv) == 1:
-        # sourcefile is always to last one in argv list :)
-        sourceFile = argv.pop()
-        flagError = False
+
     sourceFile = argv.pop()
     # get help
     if len(argv) < 1 | len(argv) > 4:
@@ -42,12 +39,14 @@ def main(argv):
         print 'usage: [-s <stoplist>] [-p] <sourcefile>'
 
     #=================================================// Done with argv
-    parseModule = parseMod.ParseModule(sourceFile, stopList)
+    parseModule = ParseModule(sourceFile, stopList)
     termList = parseModule.readDoc()
     # print to stdout if -p supplied
     if printOut == True:
         print termList
-
+    #================================================// Done with parse
+    indexModule = IndexModule(termList)
+    indexModule.startIndex()
 
 if __name__ == "__main__":
     main(sys.argv[1:])
