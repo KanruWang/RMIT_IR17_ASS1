@@ -35,7 +35,7 @@ class IndexModule:
     # debug function
     def printLexicon(self):
         result = self.lexicon.printList()
-        file = open("testLexi", "w")
-        file.write(result)
-        file.close()
         print result
+        self.lexicon.outputIndex()
+
+

@@ -53,7 +53,7 @@ class ParseModule:
             #strip off the tags and small numbers <= 3 digits
             for word in words:
                 # normalize the word, and add the returned values
-                cleanWords = self.tokenize(word)
+                cleanWords = tokenize(word)
 
                 # use stop mod function to process words, when stopList
                 if self.stopModule != None:
@@ -91,72 +91,6 @@ class ParseModule:
         self.docMap.append(docPair)
         #print 'Doc Count: ' + str(self.docCount) # DEBUG
 
-    # function to tokenize words, remove and clean, return word or None
-    # Specs: default length of numbers to be removed is *3*
-    # Returns: a array of words, or None
-    # Chain of actions: tokenize ==> normalize <-> removeStop
-    def tokenize(self, word):
-        # strip the word clean
-        word = word.strip()
-        # return None when the 'word' is NOT a word
-        if word.startswith('<') and word.endswith('>'):
-            return None
-        if word.isdigit() and (len(word) < 3):
-            return None
-
-        # start cleaning the word
-        word = word.lower()
-        # get rid of punctuations except for *hyphen* *single-quote*
-        punctuationList = string.punctuation.replace('-', '')
-        punctuationList = punctuationList.replace("'", "")
-        word = word.translate(None, string.punctuation)
-
-        # break hyphen word into two
-        tokens = word.split('-')
-        # check for '--' situations
-        for token in tokens:
-            if token == '':
-                tokens.remove(token)
-        # check for empty lists
-        if len(tokens) == 0:
-            return None
-
-        cleanWords = self._normalize(tokens)
-
-        # check and remove empty strings
-        for cleanWord in cleanWords:
-            if cleanWord == '':
-                cleanWords.remove(cleanWord)
-        if len(cleanWords) == 0:
-            return None
-
-        return cleanWords
-
-    # function to normalize the word, return array of word/s
-    # called from within the tokenize func
-    def _normalize(self, words):
-        cleanWords = []
-        for word in words:
-            # check for special cases
-            if word == "isn't":
-                cleanWords.append("is")
-                cleanWords.append("not")
-                continue
-
-            # assume there's always only one char after the '
-            wordList = word.split("'")
-            # add the first part of the word in the list
-            cleanWords.append(wordList[0])
-            if len(cleanWords) == 1:
-                continue
-            # check for the chars after the '
-            if wordList[1] == 'm':
-                cleanWords.append("am")
-                continue
-            if wordList[1] == "re":
-                cleanWords.append("are")
-                continue
-        return cleanWords
     # to output a map
     def _outputMap(self):
         mapFile = open("map", "w")
@@ -166,3 +100,73 @@ class ParseModule:
             mapFile.write(docID + " " + docNo + "\n")
         # close file after writing
         mapFile.close()
+
+#==============================================================================================
+# generic functions:
+
+# function to tokenize words, remove and clean, return word or None
+# Specs: default length of numbers to be removed is *3*
+# Returns: a array of words (at least one), or None
+# Chain of actions: tokenize ==> normalize <-> removeStop
+def tokenize(word):
+    # strip the word clean
+    word = word.strip()
+    # return None when the 'word' is NOT a word
+    if word.startswith('<') and word.endswith('>'):
+        return None
+    if word.isdigit() and (len(word) < 3):
+        return None
+
+    # start cleaning the word
+    word = word.lower()
+    # get rid of punctuations except for *hyphen* *single-quote*
+    punctuationList = string.punctuation.replace('-', '')
+    punctuationList = punctuationList.replace("'", "")
+    word = word.translate(None, string.punctuation)
+
+    # break hyphen word into two
+    tokens = word.split('-')
+    # check for '--' situations
+    for token in tokens:
+        if token == '':
+            tokens.remove(token)
+    # check for empty lists
+    if len(tokens) == 0:
+        return None
+
+    cleanWords = _normalize(tokens)
+
+    # check and remove empty strings
+    for cleanWord in cleanWords:
+        if cleanWord == '':
+            cleanWords.remove(cleanWord)
+    if len(cleanWords) == 0:
+        return None
+
+    return cleanWords
+
+# function to normalize the word, return array of word/s
+# called from within the tokenize func
+def _normalize(words):
+    cleanWords = []
+    for word in words:
+        # check for special cases
+        if word == "isn't":
+            cleanWords.append("is")
+            cleanWords.append("not")
+            continue
+
+        # assume there's always only one char after the '
+        wordList = word.split("'")
+        # add the first part of the word in the list
+        cleanWords.append(wordList[0])
+        if len(cleanWords) == 1:
+            continue
+        # check for the chars after the '
+        if wordList[1] == 'm':
+            cleanWords.append("am")
+            continue
+        if wordList[1] == "re":
+            cleanWords.append("are")
+            continue
+    return cleanWords
