@@ -10,6 +10,7 @@ Importing different modules at the start, using built libraries to read command-
 
 # import Python libraries to work with, NO advanced libs, just the ones to make life easier
 import sys
+import struct
 import parseMod
 from util import Lexicon, Termitem, InvertedList
 
@@ -43,12 +44,12 @@ def main(argv):
     # start reading files in
     lexicon = readLexicon(lexiFile)
     mapDict = readMap(mapFile)
-    print mapDict
+    #print mapDict
     # start query: find out which terms got hit first
     termList = []
     for query in queryTerms:
         # when it is in the lexicon dictionary
-        if lexicon.lexiTable[query] != None:
+        if query in lexicon.lexiTable:
             termList.append(lexicon.lexiTable[query])
         else:
             continue
@@ -58,6 +59,8 @@ def main(argv):
         quit()
     # otherwise, start reading the invList based on the info stored in TermItem
     for term in termList:
+        #print term.getOffset()
+        #print term.getFreq()
         term.setInvList(readInvList(invFile, term.getOffset(), term.getFreq()))
     # now we have a termList with complete term structures: termStr, freq, invList
     # so that we can print now
@@ -90,7 +93,9 @@ def readLexicon(lexiFileName):
     # loop through file when not EOF
     line = lexiFile.readline()
     while line != '':
+        line = line.strip()
         termInfo = line.split(' ') # [termStr, freq/BinLength, pointerOffset]
+        #print termInfo
         # debug
         if len(termInfo) != 3:
             print "lexicon reading ERROR: TermInfo length NOT 3, should be 3"
@@ -125,11 +130,27 @@ def readMap(mapFileName):
 
 # read a chunk from binary file, convert and return a invList Object
 def readInvList(fileName, offset, length):
+    lengthInt = int(length)
     binaryFile = open(fileName, 'rb')
-    binaryFile.seek(int(offset)*32) # times 32 to convert it back to bits
+    binaryFile.seek(int(offset), 0) # times 32 to convert it back to bits
+    #print offset
     # now we have the pointer moved to the right position
-    # docFreq = length * 2, two integers for every doc occurrence, every number takes 32 bits / int
-    invBinaryList = binaryFile.read(int(length) * 2 * 32)
+    # raw binary data to unpack two integers for every doc occurrence
+    invBinaryList = binaryFile.read(lengthInt*2*4)
+    intCount = lengthInt*2
+    # create format string based on number of integers
+    fmtStr = ""
+    for i in range(intCount):
+        fmtStr += 'i'
+    #print intCount
+    #print len(invBinaryList)
+    invListTup = struct.unpack(fmtStr, invBinaryList)
+    #print invListTup
+    # put numbers from tup to list
+    invList = []
+    for i in range(len(invListTup)):
+        invList.append(invListTup[i])
+    """
     # read chunk by chunk, solution found on stackoverflow
     n = 32
     # break the full string into 32 bits parts into a list of <docID, docFreq>
@@ -139,6 +160,7 @@ def readInvList(fileName, offset, length):
     for binaryItem in invBinaryList:
         intNumber = int(binaryItem, 2)
         invList.append(intNumber)
+    """
     # use iterator to go through this list, put stuff into InvList object
     invListObject = InvertedList()
     it = iter(invList)

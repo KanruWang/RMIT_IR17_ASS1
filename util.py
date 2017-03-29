@@ -4,6 +4,9 @@ utillity module:
 contains Object representation of lexicon, term and inverted list
 """
 
+# use struct for binary ops
+import struct
+
 # object models, using chain of responsibility model
 class Lexicon:
     #The lexicon object that holds a dictionary of term objects and other functions
@@ -53,8 +56,10 @@ class Lexicon:
         # loop through the list
         pointerCount = 0
         for key, termItem in lexiArray:
+
             # get to the inverted list now
-            invStr = termItem.invertList.outputBinary()
+            invStr= termItem.invertList.outputBinary()
+            #print struct.unpack('ii', invStr)
             invFile.write(invStr)
             # construct a proper pointer
             # eg. 'termString' 2 100  ==> can later on be split when reading from file
@@ -62,7 +67,8 @@ class Lexicon:
             lexiFile.write(lexiStr)
             # length of 1 integer is always 32 bis
             # pointerOffset = lengthOfListString / 32
-            pointerCount += (len(invStr)/32)
+            pointerCount += len(invStr)
+            #print pointerCount
         # close file
         lexiFile.close()
         invFile.close()
@@ -83,10 +89,13 @@ class Termitem:
     # increase the docFreq by 1, and update its posting
     # called when the term is encountered during indexing
     def update(self, docID):
-        # increase
-        self.docFreq += 1
+
         # update posting, for the given docID
         self.invertList.update(docID)
+        # increase
+        self.docFreq = len(self.invertList.list)
+    def updateFreq(self):
+        self.docFreq = len(self.invertList.list)
 
     def addOffset(self, offset):
         self.offset = offset
@@ -149,13 +158,19 @@ class InvertedList:
         return returnStr
 
     # output all the entire list in binary numbers
+    # pass a tuple now
     def outputBinary(self):
         binaryStr = ""
         listArray = self.list.items()
+        # number of docID,docFreq pairs, the number of bytes = len * 2 * 4
+        # 1 pair = 2 int; 1 int = 4 bytes --> totalBytes = len * 2 * 4
+        totalBytes = 0
         for docID, docFreq in listArray:
-            binaryStr += self.toBinary(docID)+self.toBinary(docFreq)
+            binaryStr = self.toBinary(docID, docFreq)
+            totalBytes += len(binaryStr)
         return binaryStr
 
-    # returns binary string of the passed integer in 32 bits
-    def toBinary(self, number):
-        return format(int(number), '032b')
+    # returns binary buffer, of 2 int, which is 4 bytes * 2
+    def toBinary(self, id, freq):
+        buffer = struct.pack('ii', int(id), int(freq))
+        return buffer

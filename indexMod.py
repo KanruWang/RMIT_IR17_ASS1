@@ -16,6 +16,7 @@ class IndexModule:
     def startIndex(self):
         self.sortTermList()
         self.constructIndex()
+        self.lexicon.outputIndex()
         #self.printLexicon()
 
     def sortTermList(self):
@@ -28,14 +29,15 @@ class IndexModule:
         # start reading through the sorted list
         for termTuple in self.termList:
             # extract term and docID
+            #print termTuple
             term, docID = termTuple
             self.lexicon.updateTerm(term, docID)
-        self.printLexicon()
+        #self.printLexicon()
 
     # debug function
     def printLexicon(self):
         result = self.lexicon.printList()
         print result
-        self.lexicon.outputIndex()
-
+        with open("testLexi", 'w') as file:
+            file.write(result)
 
