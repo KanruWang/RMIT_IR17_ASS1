@@ -4,6 +4,7 @@ This is the parse module:
 """
 # built in modules
 import string
+import math
 import stopMod
 
 class ParseModule:
@@ -13,6 +14,7 @@ class ParseModule:
         self.docFile = open(docName, "r")
         self.docCount = -1
         self.docMap = []
+        self.termMap = dict()
         # create stopMod obj if stoplist is supplied, else None
         if stopList != None and stopList != '':
             self.stopModule = stopMod.StopModule(stopList)
@@ -65,6 +67,8 @@ class ParseModule:
                 # add to the termList
                 for cleanWord in cleanWords:
                     termList.append((cleanWord, str(self.docCount)))
+                    self.termMap[str(self.docCount)].append(cleanWord)
+
             # detect EOF
             try:
                 line = self.docFile.next()
@@ -89,7 +93,8 @@ class ParseModule:
         # pair and map id with DOCNO, all string values
         docPair = (str(self.docCount), docNo)
         self.docMap.append(docPair)
-        #print 'Doc Count: ' + str(self.docCount) # DEBUG
+        # add a new empty list to the termMap
+        self.termMap[str(self.docCount)] = []
 
     # to output a map
     def _outputMap(self):
@@ -97,9 +102,28 @@ class ParseModule:
         # iterate through the map array and output into map file
         for tuple in self.docMap:
             docID, docNo = (tuple)
-            mapFile.write(docID + " " + docNo + "\n")
+            docWeight = self._getDocWeight(docID)
+            mapFile.write(docID + " " + docNo + " " + str(docWeight) + "\n")
         # close file after writing
         mapFile.close()
+
+    # To calculate the document weight
+    def _getDocWeight(self, docID):
+        # all terms in the doc put in a list
+        termSet = self.termMap[docID]
+        termFreqMap = dict()
+        for term in termSet:
+            if term in termFreqMap:
+                termFreqMap[term] += 1
+            else:
+                termFreqMap[term] = 1
+
+        docWeight = 0
+        print termFreqMap
+        for term,freq in termFreqMap.iteritems():
+            docWeight += (1 + math.log10(freq)) ** 2
+        docWeight = math.sqrt(docWeight)
+
 
 #==============================================================================================
 # generic functions:
