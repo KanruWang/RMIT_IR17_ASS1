@@ -29,6 +29,7 @@ class StopModule:
                 break
         return stopMap
 
+    # returns a list of cleaned words
     def removeStops(self, wordList):
         cleanWords = []
         # check for null values, return none when detected

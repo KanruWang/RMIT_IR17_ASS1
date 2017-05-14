@@ -21,6 +21,9 @@ class ParseModule:
         else:
             self.stopModule = None
 
+        # doc length map, for query ranking
+        self.docLenMap = dict()
+
     # Return: termlist, list of tuples -> (termStr, docID) both str values
     def readDoc(self):
         # start reading the doc
@@ -68,6 +71,8 @@ class ParseModule:
                 for cleanWord in cleanWords:
                     termList.append((cleanWord, str(self.docCount)))
                     self.termMap[str(self.docCount)].append(cleanWord)
+                    # Update in May, increase doc length count
+                    self._updateDocLength(cleanWord, self.docCount)
 
             # detect EOF
             try:
@@ -103,9 +108,17 @@ class ParseModule:
         for tuple in self.docMap:
             docID, docNo = (tuple)
             docWeight = self._getDocWeight(docID)
+            #print docWeight
             mapFile.write(docID + " " + docNo + " " + str(docWeight) + "\n")
         # close file after writing
         mapFile.close()
+
+        # updated in MAY, output doc length map for ranking
+        lengthMapFile = open("lenMap", "w")
+        for id,length in self.docLenMap.iteritems():
+            lengthMapFile.write(str(id) + " " + str(length) + "\n")
+        lengthMapFile.close()
+
 
     # To calculate the document weight
     def _getDocWeight(self, docID):
@@ -119,11 +132,21 @@ class ParseModule:
                 termFreqMap[term] = 1
 
         docWeight = 0
-        print termFreqMap
+        # print termFreqMap
         for term,freq in termFreqMap.iteritems():
             docWeight += (1 + math.log10(freq)) ** 2
         docWeight = math.sqrt(docWeight)
+        return docWeight
 
+    def _updateDocLength(self, line, docID):
+        byteSize = self._sizeInByte(line)
+        if docID in self.docLenMap:
+            self.docLenMap[docID] += byteSize
+        else:
+            self.docLenMap[docID] = byteSize
+
+    def _sizeInByte(self, strValue):
+        return len(strValue.encode('utf-8'))
 
 #==============================================================================================
 # generic functions:

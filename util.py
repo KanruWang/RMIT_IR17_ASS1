@@ -15,6 +15,12 @@ class Lexicon:
         # this will store a dictionary of TermItem objs, dict -> <termStr, TermItemObject>
         self.lexiTable = dict()
 
+    def getTerm(self, key):
+        if key in self.lexiTable:
+            return self.lexiTable[key]
+        else:
+            return False
+
     # update or add a term item, take term, docID as params
     # Note: the value term mapped to in dictionary is a term object
     def updateTerm(self, term, docID):
@@ -174,3 +180,5 @@ class InvertedList:
     def toBinary(self, id, freq):
         buffer = struct.pack('ii', int(id), int(freq))
         return buffer
+    def toIterative(self):
+        return self.list.iteritems()
