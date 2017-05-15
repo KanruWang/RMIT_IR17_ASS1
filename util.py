@@ -92,6 +92,9 @@ class Termitem:
         if docID != None:
             self.update(docID)
 
+        # term weight, only used in query expansion, default 0
+        self.weight = 0
+
     # increase the docFreq by 1, and update its posting
     # called when the term is encountered during indexing
     def update(self, docID):

@@ -14,6 +14,8 @@ import time
 import parseMod
 from util import Lexicon, Termitem, InvertedList
 from searchMod import SearchModule
+from stopMod import StopModule
+from expansionMod import ExpansionModule
 
 def main(argv):
     start_time = time.time()
@@ -43,6 +45,13 @@ def main(argv):
     rawTerms = []
     stopList = None
 
+    # ==== / Needs to be handled with more command line args===#
+    # flag to control query expansion
+    expandFlag = False
+    # default value for R & E
+    R_docs = 10
+    E_terms = 25
+
     # in case of stoplist, get all query terms
     if argv[11] == "-s":
         stopList = argv[12]
@@ -55,12 +64,43 @@ def main(argv):
 
     # have the SearchMod to handle instantiation and query processes
     searchMod = SearchModule(lexiFile, invFile, mapFile, stopList)
-
-    searchMod.startQuery(queryLabel, numResults, rawTerms)
+    # process the terms first
+    processedTerms = searchMod.processTerms(rawTerms)
+    # then remove stops if there's a list
+    if stopList != None and stopList != '':
+        stopMod = StopModule(stopList)
+        queryTerms = stopMod.removeStops(processedTerms)
+    else:
+        queryTerms = processedTerms
+    # in terms of invalid input
+    if len(queryTerms) == 0:
+        print "Your input is INVALID"
+        quit()
+    # otherwise start computing the initial retrieval
+    resultHeap = searchMod.startQuery(queryTerms)
 
     # =============== / End of Reading Arguments / ===================
+
+    # if we need expansion, use the initial result from search Module
+    # and use the expansionMod
+    if expandFlag:
+        # get the info we need from SearchModule's work
+        lexicon = searchMod.lexicon
+        totalDoc = searchMod.totalDoc
+        expansionMod = ExpansionModule(lexicon, totalDoc, R_docs, E_terms)
+        # get the expanded query terms
+        expandedQuery = expansionMod.getCandidateTerms(resultHeap, queryTerms)
+        resultHeap = searchMod.startQuery(expandedQuery)
+
+    # finally we present result, with resultHeap
+    searchMod.presentResult(queryLabel, numResults, resultHeap)
+
     printTime = (time.time() - start_time) * 1000
     print("--- Running time: %s ms ---" % printTime)
+
+
+
+
 
     """ =========== / Old codes to refer to / ==============
     # start reading files in

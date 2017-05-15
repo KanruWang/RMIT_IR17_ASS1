@@ -11,6 +11,7 @@ import struct
 import parseMod
 from util import Lexicon, Termitem, InvertedList
 from stopMod import StopModule
+from expansionMod import ExpansionModule
 from BM25Mod import BM25
 
 class SearchModule:
@@ -24,26 +25,11 @@ class SearchModule:
         self.lenDict = self.readLengthMap()
         self.avgLength = self.avgDocLength()
         self.invFile = invFile
-        if stopList != None and stopList != '':
-            self.stopMod = StopModule(stopList)
-        else:
-            self.stopMod = None
         # ========== / Setup is Done / ===========
         self.bm25 = BM25(self.totalDoc, self.avgLength)
+        # self.rankedHeap = []
 
-    def startQuery(self, queryLabel, numResults, rawTerms):
-        # Now we process the raw query terms
-        processedTerms = self.processTerms(rawTerms)
-        # if there is a stopMod
-        if self.stopMod != None:
-            # remove the stops
-            queryTerms = self.stopMod.removeStops(processedTerms)
-        else:
-            queryTerms = processedTerms
-        # in terms of invalid input
-        if len(queryTerms) == 0:
-            print "Your input is INVALID"
-            quit()
+    def startQuery(self, queryTerms):
         # Now we have a clean nice list of query terms to start with
         # Start following the Query Processing Algo
         HTable = dict()
@@ -60,8 +46,12 @@ class SearchModule:
             # through all the (docID, Term-in-Doc_Freq)
             for id, f_dt in invList.toIterative():
                 # calculate BM25
-
-                score = self.bm25.getSimScore(term.getInvList().list[id], term.getFreq(), self.lenDict[id])
+                # 2 cases, original query or expanded query,
+                # original query with term.weight = 0
+                if term.weight == 0:
+                    score = self.bm25.getSimScore(term.getInvList().list[id], term.getFreq(), self.lenDict[id])
+                else:
+                    score = self.bm25.getWeightedScore(term.weight, term.getInvList().list[id], self.lenDict[id])
                 # print score
                 if id in HTable:
                     HTable[id] += score
@@ -73,16 +63,18 @@ class SearchModule:
             quit()
 
         # all terms and their docs are processed
-        # use Doc Weight
+        # use Doc Weight, and put HTable into a Heap
         rankHeap = []
-        for docID,accumulator in HTable.iteritems():
+        for docID, accumulator in HTable.iteritems():
             HTable[docID] = accumulator / float(self.weightDict[str(docID)])
             # present Result, using a MAX HEAP
             # because heap in python always pops the smallest value, so we invert the value of key
             heapq.heappush(rankHeap, (HTable[docID], docID))
-            # print rankHeap
-        # resultList = []
-        # print rankHeap
+
+        # once we have done the search and all the hard work, return the ranked Heap
+        return list(rankHeap)
+
+    def presentResult(self, queryLabel, numResults, rankHeap):
         for i in range(numResults):
             try:
                 invScore, docID = heapq.heappop(rankHeap)
@@ -110,7 +102,7 @@ class SearchModule:
                 for cleanTerm in cleanTerms:
                     tokenTerms.append(cleanTerm)
                     # now we have a list of clean term
-        return tokenTerms
+        return list(tokenTerms)
 
     def readLexicon(self, lexiFileName):
         lexiFile = open(lexiFileName, 'r')

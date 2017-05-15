@@ -49,3 +49,10 @@ class BM25:
         return finalScore
 
     # ... other functions that separate the behaviors ...
+    def getWeightedScore(self, w_t, f_dt, Ld):
+        finalScore = 0
+        if Ld is not None:
+            Ld = int(Ld)
+        K = self._const_k1 * ((1. - self._const_b) + self._const_b * Ld / self._const_AL)
+        finalScore = w_t * ((self._const_k1 + 1.) * f_dt / (K + f_dt))
+        return finalScore
