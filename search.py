@@ -22,18 +22,26 @@ def main(argv):
     # entry point: handle flags and options
     # in case of error:
     if len(argv) < 12:
-        print "Argv Error: Not Enough Arguments Passed!"
-        print 'Please invoke the program in this format:'
-        print '-BM25 -q <query-label> -n <num-results> -l <lexicon> -i <invlists> -m <map>'
-        print '            [-s <stoplist>] <queryterm-1> [<queryterm-2> ... <queryterm-N>]'
+        print 'Argv Error: Not Enough Arguments Passed!' 
+        print 'Please invoke the program in either of the following two formats:' 
+        print '-BM25 -q <query-label> -n <num-results> -l <lexicon> -i <invlists> -m <map>' 
+        print '[-s <stoplist>] <queryterm-1> [<queryterm-2> ... <queryterm-N>]' 
+        print 'Or' 
+        print '-OkapiExp -q <query-label> -n <num-results> -l <lexicon> -i <invlists> -m <map> ' 
+        print '-r <R-top-ranked> -e <NumberOf-E-terms> [-s <stoplist>] <queryterm-1> [<queryterm-2>' 
+        print '... <queryterm-N>]'
         quit()
 
     for ar in argv:
         if ar == None or ar == '' or ar == ' ':
-            print "Argv Error: Null Arguments Passed!"
-            print 'Please invoke the program in this format:'
-            print '-BM25 -q <query-label> -n <num-results> -l <lexicon> -i <invlists> -m <map>'
-            print '            [-s <stoplist>] <queryterm-1> [<queryterm-2> ... <queryterm-N>]'
+            print 'Argv Error: Null Arguments Passed! ' 
+            print 'Please invoke the program in either of the following two formats:' 
+            print '-BM25 -q <query-label> -n <num-results> -l <lexicon> -i <invlists> -m <map>' 
+            print '[-s <stoplist>] <queryterm-1> [<queryterm-2> ... <queryterm-N>]' 
+            print 'Or' 
+            print '-OkapiExp -q <query-label> -n <num-results> -l <lexicon> -i <invlists> -m <map> ' 
+            print '-r <R-top-ranked> -e <NumberOf-E-terms> [-s <stoplist>] <queryterm-1> [<queryterm-2>' 
+            print '... <queryterm-N>]'
             quit()
 
     # the files
@@ -52,14 +60,63 @@ def main(argv):
     R_docs = 10
     E_terms = 25
 
-    # in case of stoplist, get all query terms
     if argv[11] == "-s":
-        stopList = argv[12]
-        if len(argv) > 12:
-            # get all query terms
+        if len(argv) > 13:
+            stopList = argv[12]
             rawTerms = argv[13:]
+        else:
+            print 'Argv Error: Not Enough Arguments Passed!'
+            print 'Please invoke the program in either of the following two formats:'
+            print '-BM25 -q <query-label> -n <num-results> -l <lexicon> -i <invlists> -m <map>'
+            print '[-s <stoplist>] <queryterm-1> [<queryterm-2> ... <queryterm-N>]'
+            print 'Or'
+            print '-OkapiExp -q <query-label> -n <num-results> -l <lexicon> -i <invlists> -m <map> '
+            print '-r <R-top-ranked> -e <NumberOf-E-terms> [-s <stoplist>] <queryterm-1> [<queryterm-2>'
+            print '... <queryterm-N>]'
+            quit()
+    elif argv[11] == "-r":
+        # Double check input
+        if argv[0] != "-OkapiExp" or argv[13] != "-e":
+            print 'Argv Error: Input format error!'
+            print 'Please invoke the program in either of the following two formats:'
+            print '-BM25 -q <query-label> -n <num-results> -l <lexicon> -i <invlists> -m <map>'
+            print '[-s <stoplist>] <queryterm-1> [<queryterm-2> ... <queryterm-N>]'
+            print 'Or'
+            print '-OkapiExp -q <query-label> -n <num-results> -l <lexicon> -i <invlists> -m <map> '
+            print '-r <R-top-ranked> -e <NumberOf-E-terms> [-s <stoplist>] <queryterm-1> [<queryterm-2>'
+            print '... <queryterm-N>]'
+            quit()
+        # Double check input
+        if len(argv) < 16:
+            print 'Argv Error: Not Enough Arguments Passed!'
+            print 'Please invoke the program in either of the following two formats:'
+            print '-BM25 -q <query-label> -n <num-results> -l <lexicon> -i <invlists> -m <map>'
+            print '[-s <stoplist>] <queryterm-1> [<queryterm-2> ... <queryterm-N>]'
+            print 'Or'
+            print '-OkapiExp -q <query-label> -n <num-results> -l <lexicon> -i <invlists> -m <map>'
+            print '-r <R-top-ranked> -e <NumberOf-E-terms> [-s <stoplist>] <queryterm-1> [<queryterm-2>'
+            print '... <queryterm-N>]'
+            quit()
+        expandFlag = True
+        R_docs = argv[12]
+        E_terms = argv[14]
+        if argv[15] == "-s":
+            if len(argv) > 17: 
+                stopList = argv[16]
+                rawTerms = argv[17:]
+            else:
+                print 'Argv Error: Not Enough Arguments Passed!'
+                print 'Please invoke the program in either of the following two formats:'
+                print '-BM25 -q <query-label> -n <num-results> -l <lexicon> -i <invlists> -m <map>'
+                print '[-s <stoplist>] <queryterm-1> [<queryterm-2> ... <queryterm-N>]'
+                print 'Or'
+                print '-OkapiExp -q <query-label> -n <num-results> -l <lexicon> -i <invlists> -m <map>'
+                print '-r <R-top-ranked> -e <NumberOf-E-terms> [-s <stoplist>] <queryterm-1> [<queryterm-2>'
+                print '... <queryterm-N>]'
+                quit()
+        else:
+            rawTerms = argv[15:]
     else:
-        # get all query terms.
         rawTerms = argv[11:]
 
     # have the SearchMod to handle instantiation and query processes
