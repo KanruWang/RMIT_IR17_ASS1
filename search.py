@@ -98,8 +98,8 @@ def main(argv):
             print '... <queryterm-N>]'
             quit()
         expandFlag = True
-        R_docs = argv[12]
-        E_terms = argv[14]
+        R_docs = int(argv[12])
+        E_terms = int(argv[14])
         if argv[15] == "-s":
             if len(argv) > 17: 
                 stopList = argv[16]
